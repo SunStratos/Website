@@ -1,24 +1,20 @@
-# README
+## Development
+### Getting Started
+#### Prerequisites
+```
+$ node -v
+v14.17.5
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+$ ruby -v
+2.7.6
 
-Things you may want to cover:
+$ rails -v
+6.0.6
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Setup
+```
+$ git clone https://github.com/SunStratos/Website.git
+$ bundle install
+$ npm install
+```
