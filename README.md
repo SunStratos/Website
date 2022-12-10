@@ -10,6 +10,9 @@ $ ruby -v
 
 $ rails -v
 6.0.6
+
+$ react -v
+18.2.0
 ```
 
 #### Setup
