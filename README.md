@@ -21,3 +21,6 @@ $ git clone https://github.com/SunStratos/Website.git
 $ bundle install
 $ npm install
 ```
+fdsfdsfsd
+fdsfsdf
+fdsfdsf
