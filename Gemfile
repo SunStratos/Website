@@ -25,6 +25,8 @@ gem 'active_model_serializers'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+gem 'bootstrap-sass'
+
 gem 'better_errors'
 
 # add gem "binding_of_caller" to your Gemfile to enable the REPL and local/instance variable inspection.

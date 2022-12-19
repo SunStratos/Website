@@ -6,6 +6,14 @@ class PagesController < ApplicationController
   end
 
   def team
+    def aerostructure
+    end
+
+    def avionics
+    end
+
+    def other_team
+    end
   end
 
   def idea
