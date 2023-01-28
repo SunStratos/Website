@@ -1,17 +1,16 @@
 Rails.application.routes.draw do
-  root 'pages#home'
-  
-  get 'project' => 'pages#project'
+  root 'home#index'
 
-  get 'team' => 'pages#team'
-  get '/team/aerostrucutre' => 'team#aerostrucutre'
+  get '/achievement' => 'achievement#index'
+  get '/recruitment' => 'recruitment#index'
+  get '/contact' => 'contact#index'
+  get '/idea' => 'idea#index'
+  get '/project' =>'project#index'
+
+  get '/team' => 'team#index'
+  get '/team/aerostructure' => 'team#aerostructure'
   get '/team/avionics' => 'team#avionics'
   get '/team/C' => 'team#C'
   get '/team/D' => 'team#D'
   get '/team/E' => 'team#E'
-
-  get 'idea' => 'pages#idea'
-  get 'achievements' => 'pages#achievements'
-  get 'recruitment' => 'pages#recruitment'
-  get 'contact' => 'pages#contact'
 end
