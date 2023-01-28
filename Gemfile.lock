@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/thomaspark/bootswatch.git
+  revision: caacd3191c729f04721caca7e140217380d08079
+  specs:
+    bootswatch (5.2.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -249,6 +255,7 @@ DEPENDENCIES
   binding_of_caller
   bootsnap (>= 1.4.2)
   bootstrap-sass
+  bootswatch!
   byebug
   capybara (>= 2.15)
   jbuilder (~> 2.7)
