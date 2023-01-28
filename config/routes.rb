@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   get 'team' => 'pages#team'
   get '/team/aerostrucutre' => 'team#aerostrucutre'
   get '/team/avionics' => 'team#avionics'
-  get '/team/other_team' => 'team#other_team'
+  get '/team/C' => 'team#C'
+  get '/team/D' => 'team#D'
+  get '/team/E' => 'team#E'
 
   get 'idea' => 'pages#idea'
   get 'achievements' => 'pages#achievements'
