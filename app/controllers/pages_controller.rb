@@ -19,7 +19,7 @@ class PagesController < ApplicationController
   def idea
   end
 
-  def achievement
+  def achievements
   end
 
   def recruitment
