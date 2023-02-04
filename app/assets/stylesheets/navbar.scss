@@ -4,3 +4,16 @@
 .dropdown-menu{
     margin-top: 0;
 }
+
+.container-fluid{
+    --bs-gutter-x: 5vw !important;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-link{
+    --bs-navbar-nav-link-padding-x: 1.2rem;
+}
+.navbar{
+    background-color: #444B53;
+}
