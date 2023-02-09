@@ -1,0 +1,16 @@
+en:
+  navbar:
+    title: 
+      home: "Home"
+      project: "The Project"
+      idea: 'The Idea'
+      achievement: 'Achievements'
+      recruitment: 'Recruitment'
+      contact: 'Contact Us'
+      teams:
+        team: 'Our Team'
+        team1: 'Aerostructure'
+        team2: 'Avionics'
+        team3: 'C'
+        team4: 'D'
+        team5: 'E'
