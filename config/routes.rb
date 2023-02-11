@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
+  get '/home' => 'home#index', :as => :home
   root 'home#index'
-
   get '/achievement' => 'achievement#index', :as => :achievement
   get '/recruitment' => 'recruitment#index', :as => :recruitment
   get '/contact' => 'contact#index', :as => :contact
