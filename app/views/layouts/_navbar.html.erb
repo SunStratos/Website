@@ -1,42 +1,42 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">
-        <img src="/assets/logo/sunstratos_logo_dark_backgorund.png" alt="SunStratos" width="109px" height="55px">
+        <img src="/assets/logo/sunstratos_logo_dark_backgorund.png" alt="SunStratos" height="47px">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="/">Home
+      <ul class="navbar-nav">
+        <li class="nav-item" id="navbar-home">
+          <a class="nav-link active" href="/"><%= t 'navbar.title.home' %></a>
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/project">The Projects</a>
+          <a class="nav-link" href="/project"><%= t 'navbar.title.project' %></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-hover="dropdown" href="/team" role="button" aria-haspopup="true" aria-expanded="false">Our Team</a>
+          <a class="nav-link dropdown-toggle" data-bs-hover="dropdown" href="/team" role="button" aria-haspopup="true" aria-expanded="false"><%= t 'navbar.title.teams.team' %></a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="/team/aerostructure">Aerostructure</a>
-              <a class="dropdown-item" href="/team/avionics">Avionics</a>
-              <a class="dropdown-item" href="/team/C">C</a>
-              <a class="dropdown-item" href="/team/D">D</a>
-              <a class="dropdown-item" href="/team/E">E</a>
+              <a class="dropdown-item"><%= link_to t('navbar.title.teams.team1'), team_aerostructure_path %></a>
+              <a class="dropdown-item" href="/team/avionics"><%= t 'navbar.title.teams.team2'%></a>
+              <a class="dropdown-item" href="/team/C"><%= t 'navbar.title.teams.team3'%></a>
+              <a class="dropdown-item" href="/team/D"><%= t 'navbar.title.teams.team4'%></a>
+              <a class="dropdown-item" href="/team/E"><%= t 'navbar.title.teams.team5'%></a>
             </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/idea">The Idea</a>
+          <a class="nav-link" href="/idea"><%= t 'navbar.title.idea'%></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/achievement">Achievements</a>
+          <a class="nav-link" href="/achievement"><%= t 'navbar.title.achievement'%></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/recruitment">Recruitment</a>
+          <a class="nav-link" href="/recruitment"><%= t 'navbar.title.recruitment'%></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact Us</a>
+          <a class="nav-link" href="/contact"><%= t 'navbar.title.contact'%></a>
         </li>
       </ul>
     </div>
