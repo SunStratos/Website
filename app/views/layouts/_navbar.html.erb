@@ -9,34 +9,34 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav">
         <li class="nav-item" id="navbar-home">
-          <a class="nav-link active" href="/"><%= t 'navbar.title.home' %></a>
+          <label class="nav-link active" ><%= link_to t('navbar.title.home'), root_path %>
             <span class="visually-hidden">(current)</span>
-          </a>
+          </label>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/project"><%= t 'navbar.title.project' %></a>
+          <label class="nav-link"><%= link_to t('navbar.title.project'), project_path %></label>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-hover="dropdown" href="/team" role="button" aria-haspopup="true" aria-expanded="false"><%= t 'navbar.title.teams.team' %></a>
+          <label class="nav-link dropdown-toggle" data-bs-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= link_to t('navbar.title.teams.team'), team_path %></label>
             <div class="dropdown-menu">
-              <a class="dropdown-item"><%= link_to t('navbar.title.teams.team1'), team_aerostructure_path %></a>
-              <a class="dropdown-item" href="/team/avionics"><%= t 'navbar.title.teams.team2'%></a>
-              <a class="dropdown-item" href="/team/C"><%= t 'navbar.title.teams.team3'%></a>
-              <a class="dropdown-item" href="/team/D"><%= t 'navbar.title.teams.team4'%></a>
-              <a class="dropdown-item" href="/team/E"><%= t 'navbar.title.teams.team5'%></a>
+              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team1'), team_aerostructure_path %></label>
+              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team2'), team_avionics_path %></label>
+              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team3'), team_C_path %></label>
+              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team4'), team_D_path %></label>
+              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team5'), team_E_path %></label>
             </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/idea"><%= t 'navbar.title.idea'%></a>
+          <label class="nav-link"><%= link_to t('navbar.title.idea'), idea_path %></label>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/achievement"><%= t 'navbar.title.achievement'%></a>
+          <label class="nav-link"><%= link_to t('navbar.title.achievement'), achievement_path %></label>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/recruitment"><%= t 'navbar.title.recruitment'%></a>
+          <label class="nav-link"><%= link_to t('navbar.title.recruitment'), recruitment_path %></label>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact"><%= t 'navbar.title.contact'%></a>
+          <label class="nav-link"><%= link_to t('navbar.title.contact'), contact_path %></label>
         </li>
       </ul>
     </div>
