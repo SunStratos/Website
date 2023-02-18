@@ -1,6 +1,28 @@
 .dropdown:hover .dropdown-menu{
     display: block;
 }
-.dropdown-menu{
-    margin-top: 0;
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-link{
+    --bs-navbar-nav-link-padding-x: 1.2rem;
+}
+.navbar{
+    background-color: #444B53;
+    .dropdown-menu{
+        margin-top: 0;
+        background-color: #444B53 !important;
+            :hover{
+                color: #444B53 !important;
+                background-color: #ababab !important;
+            }
+    }
+    .container-fluid{
+        --bs-gutter-x: 5vw !important;
+    }
+    a {
+        text-decoration: none !important;
+        color:#FFFF !important;
+    }
+
 }

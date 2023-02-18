@@ -2,18 +2,16 @@ class TeamController < ApplicationController
   def index
   end
 
-  def aerostructure
+  def aerostructures
   end
 
   def avionics
   end
 
-  def C
+  def resources
   end
 
-  def D
+  def webdevelopers
   end
-
-  def E
-  end
+  
 end
