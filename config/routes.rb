@@ -8,9 +8,8 @@ Rails.application.routes.draw do
   get '/project' =>'project#index', :as => :project
 
   get '/team' => 'team#index'
-  get '/team/aerostructure' => 'team#aerostructure', :as => :team_aerostructure
+  get '/team/aerostructures' => 'team#aerostructures', :as => :team_aerostructures
   get '/team/avionics' => 'team#avionics', :as => :team_avionics
-  get '/team/C' => 'team#C', :as => :team_C
-  get '/team/D' => 'team#D', :as => :team_D
-  get '/team/E' => 'team#E', :as => :team_E
+  get '/team/resources' => 'team#resources', :as => :team_resources
+  get '/team/webdevelopers' => 'team#webdevelopers', :as => :team_webdevelopers
 end
