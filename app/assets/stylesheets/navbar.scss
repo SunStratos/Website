@@ -1,13 +1,6 @@
 .dropdown:hover .dropdown-menu{
     display: block;
 }
-.dropdown-menu{
-    margin-top: 0;
-}
-
-.container-fluid{
-    --bs-gutter-x: 5vw !important;
-}
 .navbar-collapse{
     justify-content: flex-end;
 }
@@ -16,7 +9,20 @@
 }
 .navbar{
     background-color: #444B53;
-}
-a {
-    text-decoration: none !important;
+    .dropdown-menu{
+        margin-top: 0;
+        background-color: #444B53 !important;
+            :hover{
+                color: #444B53 !important;
+                background-color: #ababab !important;
+            }
+    }
+    .container-fluid{
+        --bs-gutter-x: 5vw !important;
+    }
+    a {
+        text-decoration: none !important;
+        color:#FFFF !important;
+    }
+
 }

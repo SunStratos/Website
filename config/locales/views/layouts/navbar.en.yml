@@ -9,8 +9,7 @@ en:
       contact: 'Contact Us'
       teams:
         team: 'Our Team'
-        team1: 'Aerostructure'
+        team1: 'Aerostructures'
         team2: 'Avionics'
-        team3: 'C'
-        team4: 'D'
-        team5: 'E'
+        team3: 'Resources'
+        team4: 'WebDevelopers'
