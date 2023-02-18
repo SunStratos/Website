@@ -1,2 +1,8 @@
-<%# <%= javascript_pack_tag 'home_react' %>
-<h1>Home page</h1>
+<% content_for :head do %>
+  <%= stylesheet_link_tag "home", :media => "all" %>
+<% end %>
+<%
+  # META
+  set_meta_tags :title => t('home.index.h1'), :reverse => true
+  set_meta_tags :description => '', :reverse => true
+%>
