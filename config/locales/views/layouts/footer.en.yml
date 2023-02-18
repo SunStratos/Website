@@ -1,4 +1,12 @@
 en:
   footer:
-    copyright: "Copyright 2023"
+    copyright: "Copyright SunStratos 2023"
+    quicklinks:
+      home: "Home"
+      project: "The Project"
+      team: "Our Team"
+      idea: "The idea"
+      achievements: "Achievements"
+      recruitment: "Recruitment"
+      contact: "Contact Us"
     
