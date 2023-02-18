@@ -33,6 +33,8 @@ gem 'better_errors'
 
 gem 'rails-i18n'
 
+gem 'meta-tags'
+
 # add gem "binding_of_caller" to your Gemfile to enable the REPL and local/instance variable inspection.
 gem 'binding_of_caller'
 

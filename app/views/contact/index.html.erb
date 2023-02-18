@@ -1,6 +1,14 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "contact", :media => "all" %>
+<% end %>
+<%
+  # META
+  set_meta_tags :title => t('contact.index.h1'), :reverse => true
+  set_meta_tags :description => '', :reverse => true
+%>
 <form>
   <fieldset>
-    <legend>Legend</legend>
+    <legend><%= t 'contact.index.h1' %></legend>
     <div class="form-group row">
       <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
       <div class="col-sm-10">
