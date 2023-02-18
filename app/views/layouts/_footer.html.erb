@@ -5,17 +5,16 @@
         <h6>About</h6>
         <p class="text-justify"></p>
         </div>
-
         <div class="col-xs-6 col-md-3">
         <h6>Quick Links</h6>
         <ul class="footer-links">
-            <li><a><%= link_to t('footer.quicklinks.home')%></a></li>
-            <li><a><%= link_to t('footer.quicklinks.project')%></a></li>
-            <li><a><%= link_to t('footer.quicklinks.team')%></a></li>
-            <li><a><%= link_to t('footer.quicklinks.idea')%></a></li>
-            <li><a><%= link_to t('footer.quicklinks.achievements')%></a></li>
-            <li><a><%= link_to t('footer.quicklinks.recruitment')%></a></li>
-            <li><a><%= link_to t('footer.quicklinks.contact')%></a></li>
+            <li><%= link_to t('footer.quicklinks.home'), root_path %></li>
+            <li><%= link_to t('footer.quicklinks.project'), project_path %></li>
+            <li><%= link_to t('footer.quicklinks.team'), team_path %></li>
+            <li><%= link_to t('footer.quicklinks.idea'), idea_path %></li>
+            <li><%= link_to t('footer.quicklinks.achievements'), achievement_path %></li>
+            <li><%= link_to t('footer.quicklinks.recruitment'), recruitment_path %></li>
+            <li><%= link_to t('footer.quicklinks.contact'), contact_path %></li>
         </ul>
         </div>
     </div>
