@@ -12,6 +12,10 @@
     .dropdown-menu{
         margin-top: 0;
         background-color: #444B53 !important;
+            :hover{
+                color: #444B53 !important;
+                background-color: #ababab !important;
+            }
     }
     .container-fluid{
         --bs-gutter-x: 5vw !important;
