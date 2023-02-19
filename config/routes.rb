@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
+
+  resources :contacts, only: [:new, :create]
+
   get '/home' => 'home#index', :as => :home
   root 'home#index'
   get '/achievement' => 'achievement#index', :as => :achievement
   get '/recruitment' => 'recruitment#index', :as => :recruitment
-  get '/contact' => 'contact#index', :as => :contact
   get '/idea' => 'idea#index', :as => :idea
   get '/project' =>'project#index', :as => :project
 

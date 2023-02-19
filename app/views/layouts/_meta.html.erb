@@ -1,0 +1,15 @@
+<%= csrf_meta_tags %>
+<%= display_meta_tags({
+    title: t("meta.site.title"),
+    #separator: "",
+    description: t("meta.site.description"),
+    og: {
+      title: t("meta.site.title"),
+      type: 'article',
+      url: request.original_url,
+      image: image_url("logo/sunstratos_logo_dark_backgorund.png"),
+      site_name: t("meta.site.title"),
+      description: t("meta.site.description"),
+    }
+  })
+%>

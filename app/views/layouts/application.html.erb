@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SunStratos</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+    <%= render partial: 'layouts/meta', locals: { page_title: @page_title } %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'layouts/application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= favicon_link_tag asset_path('favicon.ico') %>
 
@@ -18,6 +16,12 @@
 
   <body>
     <%= render "layouts/navbar" %>
+    <div class="container">
+      <br>
+      <% flash.each do |key, message| %>
+        <p class="alert alert-<%= key %>"><%= message %></p>
+      <% end %>
+    </div>
     <%= yield %>
   </body>
 </html>
