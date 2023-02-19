@@ -6,7 +6,7 @@
 //= link project/index.css
 //= link team/aerostructure.css
 //= link idea/index.css
-//= link contact/index.css
+//= link contacts/new.css
 //= link team/avionics.css
 //= link team/resources.css
 //= link team/webdev.css

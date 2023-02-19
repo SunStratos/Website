@@ -16,3 +16,6 @@ require("channels")
 const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 //= require bootstrap
+
+window.$ = window.jQuery = require("jquery");
+import "bootstrap/dist/js/bootstrap.bundle.js"

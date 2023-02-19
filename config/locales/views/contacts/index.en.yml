@@ -1,0 +1,9 @@
+en:
+  contacts:
+    index:
+      h1: 'Contact Us'
+      h2: 'Please use form below'
+    create:
+      h1: 'Thank you!'
+      form: 'Contact Form'
+      h3: 'Thank you for your message!'
