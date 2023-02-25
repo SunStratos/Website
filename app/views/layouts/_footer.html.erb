@@ -1,17 +1,17 @@
 <footer class="site-footer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="row">
+    <div class="row-footer">
         <div class="col-sm-12 col-md-6">
             <div class="footer-images">
                 <div class="sheffield-logo">
-                    <a target="_blank" rel="noopener" href="https://www.sheffield.ac.uk/"><img src="/assets/organisations/sheffieldlogo.png" alt="The University of Sheffield" /></a>
+                    <%= link_to image_tag("organisations/sheffieldlogo.png", :alt => "The University of Sheffield"), 'https://www.sheffield.ac.uk/', target: '_blank' %>
                 </div>
                 <div class="ssi-iforge">
                     <div class="ssi">
-                        <a target="_blank" rel="noopener" href="https://ssi.sites.sheffield.ac.uk/"><img src="/assets/organisations/ssilogo.png" alt="Sheffield Space Initiative" /></a>
+                        <%= link_to image_tag("organisations/ssilogo.png", :alt => "Sheffield Space Initiative"), 'https://ssi.sites.sheffield.ac.uk/', target: '_blank', rel: "noopener" %>
                     </div>
                     <div class="iforge">
-                        <a target="_blank" rel="noopener" href="https://iforgesheffield.org/"><img src="/assets/organisations/iforgelogo.png" alt="iForge" /></a>
+                        <%= link_to image_tag("organisations/iforgelogo.png", :alt => "iForge"), 'https://iforgesheffield.org/', target: '_blank', rel: "noopener" %>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
             <li><%= link_to t('footer.quicklinks.idea'), idea_path %></li>
             <li><%= link_to t('footer.quicklinks.achievements'), achievement_path %></li>
             <li><%= link_to t('footer.quicklinks.recruitment'), recruitment_path %></li>
-            <li><%= link_to t('footer.quicklinks.contact'), contacts_path %></li>
+            <li><%= link_to t('footer.quicklinks.contact'), new_contact_path %></li>
         </ul>
         </div>
     </div>
