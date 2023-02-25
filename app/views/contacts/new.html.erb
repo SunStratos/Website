@@ -27,17 +27,40 @@
               <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area", placeholder: "You know what to do..." %>
             </div>
 
-            <div class= "d-none">
-              <%= f.label :nickname %></br>
-              <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
-            </div>
-            
-            <div class="submit-form">
-              <%= f.submit 'Send Message', class: 'btn btn-primary' %>
-            </div>
+<%= stylesheet_link_tag "contacts/new", :media => "all" %>
+
+<div class="container-form">
+  <div class="form">
+    <div class="container-box">
+      <h1 class="form"><%= t 'contacts.create.form' %></h1>
+    </div>
+    <%= form_for @contact do |f| %>
+      <div class="col-md-6">
+        <div class="form-box">
+          <div class="form-name">
+            <%= f.label :name %></br>
+            <%= f.text_field  :name, required: true, class: "contact-form-text-area", placeholder: "Full name" %>
+          </div>
+          <div class="form-email">
+            <%= f.label :email %></br>
+            <%= f.text_field :email, required: true, class: "contact-form-text-area", placeholder: "example@sheffield.ac.uk" %>
+          </div>
+          
+          <div class="form-message">
+            <%= f.label :message %></br>
+            <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area", placeholder: "You know what to do..." %>
+          </div>
+
+          <div class= "d-none">
+            <%= f.label :nickname %></br>
+            <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+          </div>
+          
+          <div class="submit-form">
+            <%= f.submit 'Send Message', class: 'btn btn-primary' %>
           </div>
         </div>
-      <% end %>
-    </div>
+      </div>
+    <% end %>
   </div>
 </div>
