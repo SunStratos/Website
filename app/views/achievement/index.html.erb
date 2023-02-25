@@ -1,1 +1,9 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "achievement/index", :media => "all" %>
+<% end %>
+<%
+  # META
+  set_meta_tags :title => t('achievement.index.meta'), :reverse => true
+  set_meta_tags :description => '', :reverse => true
+%>
 <h1>achievement page</h1>
