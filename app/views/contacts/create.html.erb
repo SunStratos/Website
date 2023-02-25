@@ -4,10 +4,11 @@
   set_meta_tags :description => '', :reverse => true
 %>
 
-<%= stylesheet_link_tag "contacts/new", :media => "all" %>
+<%= stylesheet_link_tag "contacts/create", :media => "all" %>
 
 <div class="container">
-  <h1><%= t 'contacts.create.form' %></h1>
-
-  <h3><%= t 'contacts.create.h3' %></h3>
+  <div class="thanks">
+    <h3 class="form-thankyou"><%= t 'contacts.create.thankyou' %></h3>
+    <h3 class="form-thankyou"><%= t 'contacts.create.thankyou2' %></h3>
+  </div>
 </div>

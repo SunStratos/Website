@@ -13,3 +13,4 @@
 //= link team/webdev.css
 //= link achievement/index.css
 //= link recruitment/index.css
+//= link contacts/create.css
