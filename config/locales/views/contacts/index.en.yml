@@ -6,4 +6,5 @@ en:
     create:
       h1: 'Thank you!'
       form: 'Contact Form'
-      h3: 'Thank you for your message!'
+      thankyou: 'Thank you for your message!'
+      thankyou2: 'We will get back in touch with you as soon as possible.'
