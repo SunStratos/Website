@@ -1,10 +1,10 @@
-<% content_for :head do %>
-  <%= stylesheet_link_tag "team/avionics", :media => "all" %>
-<% end %>
 <%
   # META
   set_meta_tags :title => t('team.avionics.meta'), :reverse => true
   set_meta_tags :description => '', :reverse => true
 %>
+
+<%= stylesheet_link_tag "team/avionics", :media => "all" %>
+
 <%= link_to 'Our Team', team_path %>
 <h1>avionics page</h1>

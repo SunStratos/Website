@@ -1,3 +1,73 @@
-// Place all the styles related to the contact controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+@media screen and (min-width: 961px) {
+    
+    .container {
+        background-color: #162634;
+        margin: auto;
+        max-width: 1960px;
+        .form {
+            background-color: gray;
+            
+            .container-box {
+                width: 300px;
+                margin: auto;
+                h1.form {
+                    text-align: center;
+                    color: #FFF;
+                }
+            }
+            form {
+                margin: auto;
+            }
+            .col-md-6 {
+                margin: 0 auto;
+                width: 100%;
+                .form-box {
+                    width: 50%;
+                    margin: 0 auto;
+                    justify-content: center;
+                    .form-name {
+                        margin: auto;
+                        width: 50%;
+                        padding: 10px;
+                    }
+                    .form-email {
+                        margin: auto;
+                        width: 50%;
+                        padding: 10px;
+                        input {
+                            width: 80%;
+                            height: auto;
+                            text-align: left;
+                            padding-left: 7px;
+                        }
+                    }
+                    .form-message {
+                        margin: auto;
+                        width: 50%;
+                        padding: 10px;
+                    }
+                    textarea {
+                        border-radius: 0.7em;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        padding-top: 5px;
+                    }
+                    input {
+                        border-radius: 0.5em;
+                        padding-left: 10px;
+                    }
+                    label {
+                        color: #FFF;
+                        padding: 15px 10px 5px;
+                    }
+                    .submit-form {
+                        padding-bottom: 10px;
+                        text-align: right;
+                        padding-top: 10px;
+                        padding-right: 4em;
+                    }
+                }
+            }
+        }
+    }
+}

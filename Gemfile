@@ -25,6 +25,8 @@ gem 'active_model_serializers'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+gem 'font-awesome-sass', '~> 6.1.0'
+
 gem "bootswatch", github: "thomaspark/bootswatch"
 
 gem 'bootstrap-sass'
@@ -36,6 +38,8 @@ gem 'rails-i18n'
 gem 'meta-tags'
 
 gem 'mail_form'
+
+gem 'sprockets-rails'
 
 # add gem "binding_of_caller" to your Gemfile to enable the REPL and local/instance variable inspection.
 gem 'binding_of_caller'
@@ -55,6 +59,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'solargraph'
 end
 
 group :test do
