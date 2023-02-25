@@ -1,11 +1,10 @@
-<% content_for :head do %>
-  <%= stylesheet_link_tag "contacts/new", :media => "all" %>
-<% end %>
 <%
   # META
   set_meta_tags :title => t('contacts.create.h1'), :reverse => true
   set_meta_tags :description => '', :reverse => true
 %>
+
+<%= stylesheet_link_tag "contacts/new", :media => "all" %>
 
 <div class="container">
   <h1><%= t 'contacts.create.form' %></h1>
