@@ -1,31 +1,42 @@
-<% content_for :head do %>
-  <%= stylesheet_link_tag "contacts/new", :media => "all" %>
-<% end %>
 <%
   # META
   set_meta_tags :title => t('contacts.index.h1'), :reverse => true
   set_meta_tags :description => '', :reverse => true
 %>
+<%= stylesheet_link_tag "contacts/new", :media => "all" %>
+
 <div class="container">
-  <h1><%= t 'contacts.create.form' %></h1>
-  <%= form_for @contact do |f| %>
-    <div class="col-md-6">
-      <%= f.label :name %></br>
-      <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
-
-      <%= f.label :email %></br>
-      <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
-
-      <%= f.label :message %></br>
-      <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area", 
-            placeholder: "Send me a message"%></br>
-
-      <div class= "d-none">
-        <%= f.label :nickname %>
-        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
-      </div>
-
-      <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+  <div class="form">
+    <div class="container-box">
+      <h1 class="form"><%= t 'contacts.create.form' %></h1>
     </div>
-  <% end %>
+    <%= form_for @contact do |f| %>
+      <div class="col-md-6">
+        <div class="form-box">
+          <div class="form-name">
+            <%= f.label :name %></br>
+            <%= f.text_field  :name, required: true, class: "contact-form-text-area", placeholder: "Full name" %>
+          </div>
+          <div class="form-email">
+            <%= f.label :email %></br>
+            <%= f.text_field :email, required: true, class: "contact-form-text-area", placeholder: "example@sheffield.ac.uk" %>
+          </div>
+          
+          <div class="form-message">
+            <%= f.label :message %></br>
+            <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area", placeholder: "You know what to do..." %>
+          </div>
+
+          <div class= "d-none">
+            <%= f.label :nickname %></br>
+            <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+          </div>
+          
+          <div class="submit-form">
+            <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
 </div>

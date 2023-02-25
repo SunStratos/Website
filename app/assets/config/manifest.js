@@ -1,5 +1,6 @@
 //= link_tree ../images
 //= link_directory ../stylesheets .css
+//= link_directory ../stylesheets .scss
 //= link team/index.css
 //= link layouts/application.css
 //= link home.css
