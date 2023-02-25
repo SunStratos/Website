@@ -6,9 +6,11 @@
         max-width: 1960px;
         .form {
             background-color: gray;
-            
+            width: 60%;
+            margin: auto;
+            border-radius: 2em;
             .container-box {
-                width: 300px;
+                width: 100%;
                 margin: auto;
                 h1.form {
                     text-align: center;
@@ -22,7 +24,6 @@
                 margin: 0 auto;
                 width: 100%;
                 .form-box {
-                    width: 50%;
                     margin: 0 auto;
                     justify-content: center;
                     .form-name {
@@ -65,6 +66,8 @@
                         text-align: right;
                         padding-top: 10px;
                         padding-right: 4em;
+                        width: 50%;
+                        margin: auto;
                     }
                 }
             }
