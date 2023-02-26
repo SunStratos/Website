@@ -6,4 +6,70 @@
 
 <%= stylesheet_link_tag "project/index", :media => "all" %>
 
-<h1>project page</h1>
+<div class="container-home">
+  <div class="project-title">
+    <h1 class="project-h1"><%= t 'project.index.h1' %></h1>
+  </div>
+  <div class="home-format">
+    <div class="discription">
+      <div class="disc1-container">
+        <div class="disc1-container-flex">
+          <div class="disc1-imgb">
+            <%= image_tag('organisations/sheffieldlogo.png', alt: 'Description', class: 'disc1-img') %>
+          </div>
+        </div>
+        <div class="disc1-container-flex1">
+          <div class="disc-title">
+            <h3 class="home-sub"><%= t 'project.index.what.title' %></h3>
+          </div>
+          <div class="disc-text">
+            <p class="disc"><%= t 'project.index.what.description' %></p>
+          </div>
+        </div>
+      </div>
+      <div class="disc2-container">
+        <div class="disc2-container-flex1">
+          <div class="disc-title">
+            <h3 class="home-sub"><%= t 'project.index.mission.title' %></h3>
+          </div>
+          <div class="disc-text">
+            <p class="disc"><%= t 'project.index.mission.description' %></p>
+          </div>
+        </div>
+        <div class="disc2-container-flex">
+          <div class="disc2-imgb">
+            <%= image_tag('organisations/sheffieldlogo.png', alt: 'Description', class: 'disc1-img') %>
+          </div>
+        </div>
+      </div>
+      <div class="disc1-container">
+        <div class="disc1-container-flex">
+          <div class="disc1-imgb">
+            <%= image_tag('organisations/sheffieldlogo.png', alt: 'Description', class: 'disc1-img') %>
+          </div>
+        </div>
+        <div class="disc1-container-flex1">
+          <div class="disc-title">
+            <h3 class="home-sub"><%= t 'project.index.updates.title' %></h3>
+          </div>
+          <div class="disc-text">
+            <p class="disc"><%= t 'project.index.updates.description' %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="process-container">
+      <div class="process-title">
+        <h3 class="project"><%= t 'project.index.project.title' %></h3>
+      </div>
+      <div class="process-imgb">
+        <div class="process-img">
+          <%= image_tag('organisations/sheffieldlogo.png', alt: 'Description', class: 'proc-img') %>
+          <%= image_tag('organisations/sheffieldlogo.png', alt: 'Description', class: 'proc-img') %>
+          <%= image_tag('organisations/sheffieldlogo.png', alt: 'Description', class: 'proc-img') %>
+          <%= image_tag('organisations/sheffieldlogo.png', alt: 'Description', class: 'proc-img') %>
+        </div>
+      </div>
+    </div>
+</div>
