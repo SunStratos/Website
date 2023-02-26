@@ -2,3 +2,15 @@ en:
   project:
     index:
       meta: 'SunStratos | The Project'
+      h1: The Project
+      what: 
+        title: 'What is SunStratos?'
+        description: Sheffield University Stratosphere Programme (SunStratos) is a student-led research group within the University of Sheffield. We develop solutions that capitalize on the use of upper layers of the atmosphere for strategic missions.
+      mission: 
+        title: 'Our mission:'
+        description: Because Adi is obliging us to do it.
+      updates: 
+        title: Our Current Updates
+        description: Give latest updates of the project
+      project:
+        title: The Process
