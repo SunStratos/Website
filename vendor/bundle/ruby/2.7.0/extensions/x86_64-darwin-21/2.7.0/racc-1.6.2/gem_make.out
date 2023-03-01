@@ -1,0 +1,21 @@
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/racc-1.6.2/ext/racc/cparse
+/Users/shaky/.rvm/rubies/ruby-2.7.6/bin/ruby -I /Users/shaky/.rvm/rubies/ruby-2.7.6/lib/ruby/site_ruby/2.7.0 extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-79zbqd sitelibdir\=./.gem.20230301-32914-79zbqd clean
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-79zbqd sitelibdir\=./.gem.20230301-32914-79zbqd
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-79zbqd sitelibdir\=./.gem.20230301-32914-79zbqd install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20230301-32914-79zbqd/racc
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-79zbqd sitelibdir\=./.gem.20230301-32914-79zbqd clean

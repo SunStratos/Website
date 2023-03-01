@@ -1,0 +1,29 @@
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/puma-4.3.12/ext/puma_http11
+/Users/shaky/.rvm/rubies/ruby-2.7.6/bin/ruby -I /Users/shaky/.rvm/rubies/ruby-2.7.6/lib/ruby/site_ruby/2.7.0 extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version in openssl/ssl.h... yes
+checking for Random.bytes... yes
+creating Makefile
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/puma-4.3.12/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-v1seqy sitelibdir\=./.gem.20230301-32914-v1seqy clean
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/puma-4.3.12/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-v1seqy sitelibdir\=./.gem.20230301-32914-v1seqy
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/puma-4.3.12/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-v1seqy sitelibdir\=./.gem.20230301-32914-v1seqy install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20230301-32914-v1seqy/puma
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/puma-4.3.12/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-v1seqy sitelibdir\=./.gem.20230301-32914-v1seqy clean

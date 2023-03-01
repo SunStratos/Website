@@ -1,0 +1,19 @@
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.15.0/ext/bootsnap
+/Users/shaky/.rvm/rubies/ruby-2.7.6/bin/ruby -I /Users/shaky/.rvm/rubies/ruby-2.7.6/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-1k77y7s sitelibdir\=./.gem.20230301-32914-1k77y7s clean
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-1k77y7s sitelibdir\=./.gem.20230301-32914-1k77y7s
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-1k77y7s sitelibdir\=./.gem.20230301-32914-1k77y7s install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20230301-32914-1k77y7s/bootsnap
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-1k77y7s sitelibdir\=./.gem.20230301-32914-1k77y7s clean

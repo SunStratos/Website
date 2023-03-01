@@ -1,0 +1,16 @@
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+/Users/shaky/.rvm/rubies/ruby-2.7.6/bin/ruby -I /Users/shaky/.rvm/rubies/ruby-2.7.6/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-10lp1uk sitelibdir\=./.gem.20230301-32914-10lp1uk clean
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-10lp1uk sitelibdir\=./.gem.20230301-32914-10lp1uk
+make: Nothing to be done for `all'.
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-10lp1uk sitelibdir\=./.gem.20230301-32914-10lp1uk install
+
+current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20230301-32914-10lp1uk sitelibdir\=./.gem.20230301-32914-10lp1uk clean
