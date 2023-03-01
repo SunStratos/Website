@@ -13,10 +13,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-wp8l24 sitelibdir\=./.gem.20230301-32914-wp8l24 clean
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-n3w1od sitelibdir\=./.gem.20230301-59078-n3w1od clean
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-wp8l24 sitelibdir\=./.gem.20230301-32914-wp8l24
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-n3w1od sitelibdir\=./.gem.20230301-59078-n3w1od
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -254,8 +254,8 @@ linking shared-object nio4r_ext.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-wp8l24 sitelibdir\=./.gem.20230301-32914-wp8l24 install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20230301-32914-wp8l24
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-n3w1od sitelibdir\=./.gem.20230301-59078-n3w1od install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20230301-59078-n3w1od
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-wp8l24 sitelibdir\=./.gem.20230301-32914-wp8l24 clean
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-n3w1od sitelibdir\=./.gem.20230301-59078-n3w1od clean

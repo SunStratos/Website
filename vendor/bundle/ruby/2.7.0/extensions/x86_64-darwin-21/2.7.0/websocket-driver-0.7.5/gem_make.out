@@ -3,17 +3,17 @@ current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.
 creating Makefile
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-tjea18 sitelibdir\=./.gem.20230301-32914-tjea18 clean
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1cg3mqa sitelibdir\=./.gem.20230301-59078-1cg3mqa clean
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-tjea18 sitelibdir\=./.gem.20230301-32914-tjea18
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1cg3mqa sitelibdir\=./.gem.20230301-59078-1cg3mqa
 compiling websocket_mask.c
 linking shared-object websocket_mask.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-tjea18 sitelibdir\=./.gem.20230301-32914-tjea18 install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20230301-32914-tjea18
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1cg3mqa sitelibdir\=./.gem.20230301-59078-1cg3mqa install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20230301-59078-1cg3mqa
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-tjea18 sitelibdir\=./.gem.20230301-32914-tjea18 clean
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1cg3mqa sitelibdir\=./.gem.20230301-59078-1cg3mqa clean

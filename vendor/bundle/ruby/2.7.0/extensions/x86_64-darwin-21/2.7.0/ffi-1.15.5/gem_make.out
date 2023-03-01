@@ -9,10 +9,10 @@ creating extconf.h
 creating Makefile
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-1dortqy sitelibdir\=./.gem.20230301-32914-1dortqy clean
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1hni76d sitelibdir\=./.gem.20230301-59078-1hni76d clean
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-1dortqy sitelibdir\=./.gem.20230301-32914-1dortqy
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1hni76d sitelibdir\=./.gem.20230301-59078-1hni76d
 Configuring libffi
 /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c/libffi/configure: line 18692: readelf: command not found
 clang: error: unsupported option '-print-multi-os-directory'
@@ -91,7 +91,7 @@ linking shared-object ffi_c.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-1dortqy sitelibdir\=./.gem.20230301-32914-1dortqy install
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1hni76d sitelibdir\=./.gem.20230301-59078-1hni76d install
 cd "/Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c/libffi-x86_64-darwin21" && /Library/Developer/CommandLineTools/usr/bin/make
 /Library/Developer/CommandLineTools/usr/bin/make  all-recursive
 Making all in include
@@ -126,7 +126,7 @@ compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20230301-32914-1dortqy
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20230301-59078-1hni76d
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230301-32914-1dortqy sitelibdir\=./.gem.20230301-32914-1dortqy clean
+make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1hni76d sitelibdir\=./.gem.20230301-59078-1hni76d clean
