@@ -3,14 +3,14 @@ current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.
 creating Makefile
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1wsqt9h sitelibdir\=./.gem.20230301-59078-1wsqt9h clean
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1fcglcd sitelibdir\=./.gem.20230302-21701-1fcglcd clean
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1wsqt9h sitelibdir\=./.gem.20230301-59078-1wsqt9h
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1fcglcd sitelibdir\=./.gem.20230302-21701-1fcglcd
 make: Nothing to be done for `all'.
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1wsqt9h sitelibdir\=./.gem.20230301-59078-1wsqt9h install
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1fcglcd sitelibdir\=./.gem.20230302-21701-1fcglcd install
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1wsqt9h sitelibdir\=./.gem.20230301-59078-1wsqt9h clean
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1fcglcd sitelibdir\=./.gem.20230302-21701-1fcglcd clean

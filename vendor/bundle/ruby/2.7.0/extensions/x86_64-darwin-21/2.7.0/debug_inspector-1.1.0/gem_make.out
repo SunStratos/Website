@@ -3,17 +3,17 @@ current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.
 creating Makefile
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-14xpb7v sitelibdir\=./.gem.20230301-59078-14xpb7v clean
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1ywvl2g sitelibdir\=./.gem.20230302-21701-1ywvl2g clean
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-14xpb7v sitelibdir\=./.gem.20230301-59078-14xpb7v
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1ywvl2g sitelibdir\=./.gem.20230302-21701-1ywvl2g
 compiling debug_inspector.c
 linking shared-object debug_inspector.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-14xpb7v sitelibdir\=./.gem.20230301-59078-14xpb7v install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20230301-59078-14xpb7v
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1ywvl2g sitelibdir\=./.gem.20230302-21701-1ywvl2g install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20230302-21701-1ywvl2g
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/debug_inspector-1.1.0/ext/debug_inspector
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-14xpb7v sitelibdir\=./.gem.20230301-59078-14xpb7v clean
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1ywvl2g sitelibdir\=./.gem.20230302-21701-1ywvl2g clean

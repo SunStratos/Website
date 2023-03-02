@@ -3,10 +3,10 @@ current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.
 creating Makefile
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1j9rdey sitelibdir\=./.gem.20230301-59078-1j9rdey clean
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-3q5nax sitelibdir\=./.gem.20230302-21701-3q5nax clean
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1j9rdey sitelibdir\=./.gem.20230301-59078-1j9rdey
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-3q5nax sitelibdir\=./.gem.20230302-21701-3q5nax
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -87,8 +87,8 @@ linking shared-object sassc/libsass.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1j9rdey sitelibdir\=./.gem.20230301-59078-1j9rdey install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20230301-59078-1j9rdey/sassc
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-3q5nax sitelibdir\=./.gem.20230302-21701-3q5nax install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20230302-21701-3q5nax/sassc
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-1j9rdey sitelibdir\=./.gem.20230301-59078-1j9rdey clean
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-3q5nax sitelibdir\=./.gem.20230302-21701-3q5nax clean

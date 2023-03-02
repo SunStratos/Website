@@ -3,10 +3,10 @@ current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.
 creating Makefile
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/jaro_winkler-1.5.4/ext/jaro_winkler
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-12xokta sitelibdir\=./.gem.20230301-59078-12xokta clean
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1t1p3ju sitelibdir\=./.gem.20230302-21701-1t1p3ju clean
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/jaro_winkler-1.5.4/ext/jaro_winkler
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-12xokta sitelibdir\=./.gem.20230301-59078-12xokta
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1t1p3ju sitelibdir\=./.gem.20230302-21701-1t1p3ju
 compiling adj_matrix.c
 compiling codepoints.c
 compiling jaro.c
@@ -54,8 +54,8 @@ linking shared-object jaro_winkler/jaro_winkler_ext.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/jaro_winkler-1.5.4/ext/jaro_winkler
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-12xokta sitelibdir\=./.gem.20230301-59078-12xokta install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 jaro_winkler_ext.bundle ./.gem.20230301-59078-12xokta/jaro_winkler
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1t1p3ju sitelibdir\=./.gem.20230302-21701-1t1p3ju install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 jaro_winkler_ext.bundle ./.gem.20230302-21701-1t1p3ju/jaro_winkler
 
 current directory: /Users/shaky/SunStratos/WebSite/Website/vendor/bundle/ruby/2.7.0/gems/jaro_winkler-1.5.4/ext/jaro_winkler
-make DESTDIR\= sitearchdir\=./.gem.20230301-59078-12xokta sitelibdir\=./.gem.20230301-59078-12xokta clean
+make DESTDIR\= sitearchdir\=./.gem.20230302-21701-1t1p3ju sitelibdir\=./.gem.20230302-21701-1t1p3ju clean
