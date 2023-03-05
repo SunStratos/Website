@@ -6,7 +6,8 @@
 
 <%= stylesheet_link_tag "team/index", :media => "all" %>
 
-<div class="lead">
+<div class="team-page">
+  <div class="lead">
     <div>
         <%= image_tag "leads/rory.JPG" %>
     </div>
@@ -25,7 +26,7 @@
     </div>
 </div>
 <div class="collapse-boxes">
-  <div class="aerostructures">
+  <div class="aerostructures team">
     <div>
         <button class="link-button" data-toggle="collapse" data-target="#aerostructures" aria-expanded="true" aria-controls="aerostructures">
           <%= t 'team.index.teams.aerostructures'%>
@@ -33,7 +34,7 @@
     </div>
     <%= render 'team/aerostructures' %>
   </div>
-  <div class="avionics">
+  <div class="avionics team">
     <div>
       <button class="link-button" data-toggle="collapse" data-target="#avionics" aria-expanded="true" aria-controls="avionics">
         <%= t 'team.index.teams.avionics'%>
@@ -41,7 +42,7 @@
     </div>
     <%= render 'team/avionics' %>
   </div>
-  <div class="resources">
+  <div class="resources team">
     <div>
       <button class="link-button" data-toggle="collapse" data-target="#resources" aria-expanded="true" aria-controls="resources">
         <%= t 'team.index.teams.resources'%>
@@ -49,12 +50,13 @@
     </div>
     <%= render 'team/resources' %>
   </div>
-  <div class="web">
+  <div class="web team">
     <div>
       <button class="link-button" data-toggle="collapse" data-target="#web" aria-expanded="true" aria-controls="web">
         <%= t 'team.index.teams.web'%>
       </button>
     </div>
   </div>
-  <%= render 'team/webdevelopers' %>
+    <%= render 'team/webdevelopers' %>
+  </div>
 </div>
