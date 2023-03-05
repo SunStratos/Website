@@ -6,11 +6,6 @@
 
 <%= stylesheet_link_tag "team/index", :media => "all" %>
 
-<%= link_to t('navbar.title.teams.team1'), team_aerostructures_path %>
-<%= link_to t('navbar.title.teams.team2'), team_avionics_path %>
-<%= link_to t('navbar.title.teams.team3'), team_resources_path %>
-<%= link_to t('navbar.title.teams.team4'), team_webdevelopers_path %>
-
 <div class="lead">
     <div>
         <%= image_tag "leads/rory.JPG" %>
@@ -31,23 +26,32 @@
 </div>
 <div class="collapse-boxes">
   <div class="aerostructures">
-    <button class="link-button" data-toggle="collapse" data-target="#aerostructures" aria-expanded="true" aria-controls="aerostructures">
-      <%= t 'team.index.teams.aerostructures'%>
-    </button>
+    <div>
+        <button class="link-button" data-toggle="collapse" data-target="#aerostructures" aria-expanded="true" aria-controls="aerostructures">
+          <%= t 'team.index.teams.aerostructures'%>
+        </button>
+    </div>
+
   </div>
   <div class="avionics">
-    <button class="link-button" data-toggle="collapse" data-target="#avionics" aria-expanded="true" aria-controls="avionics">
-      <%= t 'team.index.teams.avionics'%>
-    </button>
+    <div>
+      <button class="link-button" data-toggle="collapse" data-target="#avionics" aria-expanded="true" aria-controls="avionics">
+        <%= t 'team.index.teams.avionics'%>
+      </button>
+    </div>
   </div>
   <div class="resources">
-    <button class="link-button" data-toggle="collapse" data-target="#resources" aria-expanded="true" aria-controls="resources">
-      <%= t 'team.index.teams.resources'%>
-    </button>
+    <div>
+      <button class="link-button" data-toggle="collapse" data-target="#resources" aria-expanded="true" aria-controls="resources">
+        <%= t 'team.index.teams.resources'%>
+      </button>
+    </div>
   </div>
   <div class="web">
-    <button class="link-button" data-toggle="collapse" data-target="#web" aria-expanded="true" aria-controls="web">
-      <%= t 'team.index.teams.web'%>
-    </button>
+    <div>
+      <button class="link-button" data-toggle="collapse" data-target="#web" aria-expanded="true" aria-controls="web">
+        <%= t 'team.index.teams.web'%>
+      </button>
+    </div>
   </div>
 </div>
