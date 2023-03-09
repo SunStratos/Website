@@ -2,3 +2,27 @@ en:
   achievement:
     index:
       meta: 'SunStratos | Achievements'
+      h1: Achievements
+      rexus:
+        h2: REXUS
+        text1: Ever since the project began in 2020, there loomed an idea of this project to set the groundworks for an interplanetary bound Aerial Vehicle to be tested in the Earth’s stratosphere. With the recent successful flight of the Mars Helicopter Ingenuity in April 2021, our team chose to change the project's focus to chase this goal.
+        text2: "Our mission profile from the get-go included a sounding rocket as our launcher. The rocket would house our payload which is a folded Unmanned Aerial Vehicle (UAV) and deploy it at a target altitude. The UAV would then free-fall till it’s reached its target deployment altitude where it unfolds its wings and begins its flight. This mission profile is very similar to a Mars bound aircraft, isn't it? Not including the several month-long coasting phase from Earth to Mars, the phases of rocket, entry, descent, and deployment can be tested here on Earth with a single sounding rocket launch. The only caveat: we need a rocket that can launch us above 50km altitude"
+      fair:
+        h2: Advanced Engineering Fair
+        text1: On the 3rd and 4th of November, SunStratos and other Sheffield Space Initiative teams represented the University of Sheffield at one of the most popular engineering fairs in the UK - Advanced Engineering conference 2021 at the NEC in Birmingham.
+        text2: Our participation there required a lot of effort to plan and organise everything on time, but it definitely was worth it. It was an invaluable experience to talk to amazing people from businesses as well as visitors interested in our project.
+        text3: It would not have happened without other exceptional teams within SSI. Huge thanks to Project SunrIde, Project Hex and SunSat - Sheffield University Nova Satellite for collaboration and a wonderful time!
+        text4: Special thanks to The University of Sheffield and AlumniFoundation for supporting us financially and allowing us to participate in the event. Many thanks to the organisers from Advanced Engineering UK, everything went perfectly!
+      sweden:
+        h2: Space Investment Day 2020 - Sweden
+        text1: Our business pitch was chosen to be broadcasted live in the Space Investment Day event conducted in Sweden.
+        text2: You can watch our pitch video here.
+        text3: More info about Space Investment Day can be found here.
+      rig:
+        test:
+          h2: Aerodynamic Test Rig
+          text1: With the University's Wind Tunnel currently undergoing maintenance, we took the liberty to create our own portable aerodynamic test rig to get experimental data on our prototypes. The test rig can be mounted on the roof of a car or a van and will collect useful aerodynamic data using its on-board Data Acquisition System.
+          text2: The conceptual design of the folded glider along with its dock can be viewed in the first picture
+        update:
+          h2: Test Rig Update
+          text1: Finally, after a few sessions in the iForge at The University of Sheffield and our lab in the George Porter Building, the test rig assembly is finished. The next step is to calibrate all of the electronics, and we should be able to test it shortly in wind tunnel at our University. This prototype will give us essential aerodynamic data, which will be analysed to improve the design of our glider.

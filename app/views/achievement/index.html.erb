@@ -6,4 +6,78 @@
 
 <%= stylesheet_link_tag "achievement/index", :media => "all" %>
 
-<h1>achievement page</h1>
+<div class="container-home">
+  <div class="container-box">
+    <div class="show_video">
+      <%= video_tag 'glider/video.mp4', autoplay: true, muted: true, loop: true, playsinline: true %>
+    </div>
+    <div class="achievment-title">
+      <h1><%= t 'achievement.index.h1' %></h1>
+    </div>
+  </div>
+  <div class="container-form">
+    <div class="rexus">
+      <div class="rexus-h2">
+        <h2><%= t 'achievement.index.rexus.h2' %></h2>
+      </div>
+      <div class="rexus-desc">
+        <p><%= t 'achievement.index.rexus.text1' %></p>
+        <p><%= t 'achievement.index.rexus.text2' %></p>
+      </div>
+      <div class="rexus-pic">
+        <%= image_tag ('REXUS/rexus.png', alt: 'rexus') %>
+      </div>
+    </div>
+    <div class="fair">
+      <div class="fair-h2">
+        <h2><%= t 'achievement.index.fair.h2' %></h2>
+      </div>
+      <div class="fair-pic">
+        <%= image_tag ('fair/fair.png', alt: 'Advanced Engineering Fair') %>
+      </div>
+      <div class="fair-desc">
+        <p><%= t 'achievement.index.fair.text1' %></p>
+        <p><%= t 'achievement.index.fair.text2' %></p>
+        <p><%= t 'achievement.index.fair.text3' %></p>
+        <p><%= t 'achievement.index.fair.text4' %></p>
+      </div>
+    </div>
+    <div class="sweden">
+      <div class="sweden-h2">
+        <h2><%= t 'achievement.index.sweden.h2' %></h2>
+      </div>
+      <div class="sweden-desc">
+        <p><%= t 'achievement.index.sweden.text1' %></p>
+        <p><%= t 'achievement.index.sweden.text2' %></p>
+        <p><%= t 'achievement.index.sweden.text3' %></p>
+      </div>
+      <div class="sweden-video">
+        <%= video_tag 'sweden/video.mp4', playsinline: true %>
+      </div>
+    </div>
+    <div class="test-rig">
+      <div class="test-h2">
+        <h2><%= t 'achievement.index.rig.test.h2' %></h2>
+      </div>
+      <div class="test-desc">
+        <p><%= t 'achievement.index.rig.test.text1' %></p>
+        <p><%= t 'achievement.index.rig.test.text2' %></p>
+      </div>
+      <div class="test-pic">
+        <%= image_tag ('test-rig/test-rig.png', alt: 'test-rig') %>
+        <%= image_tag ('test-rig/test-rig2.png', alt: 'test-rig2') %>
+      </div>
+    </div>
+    <div class="rig-update">
+      <div class="update-h2">
+        <h2><%= t 'achievement.index.rig.update.h2' %></h2>
+      </div>
+      <div class="update-desc">
+        <p><%= t 'achievement.index.rig.update.text1' %></p>
+      </div>
+      <div class="update-pic">
+        <%= image_tag ('test-rig/test-rig.png', alt: 'test-rig') %>
+      </div>
+    </div>
+  </div>
+</div>
