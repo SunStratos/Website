@@ -6,4 +6,90 @@
 
 <%= stylesheet_link_tag "achievement/index", :media => "all" %>
 
-<h1>achievement page</h1>
+<div class="container-home">
+  <div class="container-box">
+    <div class="show_video">
+      <%= video_tag 'glider/video.mp4', autoplay: true, muted: true, loop: true, playsinline: true %>
+    </div>
+    <div class="achievement-title">
+      <h1><%= t 'achievement.index.h1' %></h1>
+    </div>
+  </div>
+  <div class="container-form">
+    <div class="rexus">
+      <div class="rexus-h2">
+        <h2><%= t 'achievement.index.rexus.h2' %></h2>
+      </div>
+      <div class="rexus-flex">
+        <div class="rexus-desc">
+          <p><%= t 'achievement.index.rexus.text1' %></p>
+          <p><%= t 'achievement.index.rexus.text2' %></p>
+        </div>
+        <div class="rexus-pic">
+          <%= image_tag('rexus/rexus.png', alt: 'rexus') %>
+        </div>
+      </div>
+    </div>
+    <div class="fair">
+      <div class="fair-h2">
+        <h2><%= t 'achievement.index.fair.h2' %></h2>
+      </div>
+      <div class="fair-flex">
+        <div class="fair-pic">
+          <%= image_tag('fair/fair.jpg', alt: 'Advanced Engineering Fair') %>
+        </div>
+        <div class="fair-desc">
+          <p><%= t 'achievement.index.fair.text1' %></p>
+          <p><%= t 'achievement.index.fair.text2' %></p>
+          <p><%= t 'achievement.index.fair.text3' %></p>
+          <p><%= t 'achievement.index.fair.text4' %></p>
+        </div>
+      </div>
+    </div>
+    <div class="sweden">
+      <div class="sweden-h2">
+        <h2><%= t 'achievement.index.sweden.h2' %></h2>
+      </div>
+      <div class="sweden-flex">
+        <div class="sweden-desc">
+          <p><%= t 'achievement.index.sweden.text1' %></p>
+          <p><%= link_to t('achievement.index.sweden.text2'), 'https://youtu.be/IltUwG9cQSo' %></p>
+          <p><%= t 'achievement.index.sweden.text3' %><%= link_to t('achievement.index.sweden.text4'), 'https://spaceinvestmentday.com/#:~:text=On%20November%2016%2D19%2C%20talent,will%20meet%20at%20this%20event' %></p>
+        </div>
+        <div class="sweden-video">
+          <%= video_tag 'sweden/video.mp4', autoplay: true, muted: true, loop: true, playsinline: true %>
+        </div>
+      </div>
+    </div>
+    <div class="test-rig">
+      <div class="test-h2">
+        <h2><%= t 'achievement.index.rig.test.h2' %></h2>
+      </div>
+      <div class="test-flex">
+        <div class="test-pic">
+          <div class="img-flex">
+            <%= image_tag('test_rig/test_rig.png', alt: 'test_rig') %>
+            <%= image_tag('test_rig/test_rig2.png', alt: 'test_rig2') %>
+          </div>
+        </div>
+        <div class="test-desc">
+          <p><%= t 'achievement.index.rig.test.text1' %></p>
+          <p><%= t 'achievement.index.rig.test.text2' %></p>
+        </div>
+      </div>
+    </div>
+    <div class="rig-update">
+      <div class="update-h2">
+        <h2><%= t 'achievement.index.rig.update.h2' %></h2>
+      </div>
+      <div class="update-flex">
+        <div class="update-desc">
+          <p><%= t 'achievement.index.rig.update.text1' %></p>
+        </div>
+        <div class="update-pic">
+          <%= image_tag('test_rig/test_rig.png', alt: 'test_rig') %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
