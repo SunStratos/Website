@@ -1,3 +1,307 @@
 // Place all the styles related to the achievement controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+@media screen and (min-width: 961px) {
+
+    .container-home {
+        margin: auto;
+        max-width: 1960px;
+        overflow: hidden;
+        padding-bottom: 100px;
+        background: linear-gradient(180deg, #3B7AA8 0%, #1B3244 100%);
+        .container-box {
+            width: 100%;
+            height: 437px;
+            .show_video {
+                height: 437px;
+                width: 100%;
+                video {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    opacity: 0.5;
+                }
+                background-color: black;
+            }
+            .achievement-title {
+                width: 100%;
+                height: auto;
+                position: absolute;
+                text-align: center;
+                top: 37%;
+                h1 {
+                    font-family: 'Source Serif Pro';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 50px;
+                    line-height: 63px;
+                    color: #A8E1FF;
+                }
+            }
+        }
+        .container-form {
+            width: 75%;
+            height: 100%;
+            margin: 0 auto;
+            .rexus {
+                margin: 0 auto;
+                width: 100%;
+                height: 20%;
+                padding-bottom: 7%;
+                padding-top: 101px;
+                .rexus-h2 {
+                    width: 128px;
+                    height: 35px;
+                    margin-left: 20%;
+                    h2 {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 30px;
+                        line-height: 38px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+                .rexus-flex {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 15%;
+                    justify-content: center;
+                    .rexus-desc {
+                        width: 60%;
+                        height: 90%;
+                        padding-top: 25px;
+                        text-align: justify;
+                        p {
+                            font-family: 'Nunito';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 27px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .rexus-pic {
+                        img {
+                            width: 243px;
+                            height: 356px;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+            .fair {
+                margin: 0 auto;
+                width: 100%;
+                height: auto;
+                padding-bottom: 50px;
+                background-color: #A8E1FF;
+                box-shadow: 20px 15px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
+                .fair-h2 {
+                    padding-top: 30px;
+                    h2 {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 30px;
+                        line-height: 38px;
+                        text-align: center;
+                        color: #444B53;
+                    }
+                }
+                .fair-flex {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10%;
+                    justify-content: center;
+                    .fair-pic {
+                        width: 309px;
+                        height: 313px;
+                        padding-top: 45px;
+                        img {
+                            width: 309px;
+                            height: 313px;
+                            object-fit: cover;
+                            filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+                            border-radius: 25px;
+                        }
+                    }
+                    .fair-desc {
+                        width: 50%;
+                        height: 100%;
+                        padding-top: 30px;
+                        text-align: justify;
+                        p {
+                            font-family: 'Source Serif Pro';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 23px;
+                            color: #444B53;
+                        }
+                    }
+                }
+            }
+            .sweden {
+                margin: 0 auto;
+                width: 100%;
+                height: auto;
+                margin-top: 5%;
+                padding-bottom: 55px;
+                background-color: #A8E1FF;
+                box-shadow: -20px 15px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
+                .sweden-h2 {
+                    padding-top: 30px;
+                    h2 {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 30px;
+                        line-height: 38px;
+                        text-align: center;
+                        color: #444B53;
+                    }
+                }
+                .sweden-flex {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    gap: 10%;
+                    justify-content: center;
+                    .sweden-video {
+                        width: 392px;
+                        height: 221px;
+                        padding-top: 18px;
+                        margin: 0 auto;
+                        video {
+                            width: 392px;
+                            height: 221px;
+                            object-fit: cover;
+                            filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+                        }
+                    }
+                    .sweden-desc {
+                        width: auto;
+                        height: auto;
+                        padding-top: 30px;
+                        text-align: center;
+                        p {
+                            font-family: 'Source Serif Pro';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 23px;
+                            color: #444B53;
+                        }
+                    }
+                }
+            }
+            .test-rig {
+                margin: 0 auto;
+                width: 100%;
+                height: 20%;
+                padding-bottom: 7%;
+                padding-top: 120px;
+                .test-h2 {
+                    width: auto;
+                    height: auto;
+                    margin-left: 48%;
+                    h2 {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 30px;
+                        line-height: 38px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+                .test-flex {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    flex-direction: row;
+                    gap: 15%;
+                    .test-desc {
+                        width: 60%;
+                        height: 90%;
+                        padding-top: 70px;
+                        text-align: justify;
+                        p {
+                            font-family: 'Nunito';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 27px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .test-pic {
+                        width: 395px;
+                        height: 282px;
+                        .img-flex {
+                            display: flex;
+                            flex-wrap: wrap;
+                            img {
+                                width: 395px;
+                                height: 282pxpx;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+            .rig-update {
+                margin: 0 auto;
+                width: 100%;
+                height: 20%;
+                padding-bottom: 7%;
+                padding-top: 120px;
+                .update-h2 {
+                    width: auto;
+                    height: auto;
+                    margin-left: 20%;
+                    h2 {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 30px;
+                        line-height: 38px;
+                        color: #FFFFFF;
+                    }
+                }
+                .update-flex {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 15%;
+                    justify-content: center;
+                    .update-desc {
+                        width: 60%;
+                        height: 90%;
+                        padding-top: 10%;
+                        text-align: justify;
+                        p {
+                            font-family: 'Nunito';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 27px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .update-pic {
+                        img {
+                            width: 243px;
+                            height: 356px;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
