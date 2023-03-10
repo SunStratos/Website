@@ -1,4 +1,14 @@
 en:
   idea:
     index:
-      h1: 'SunStratos | The Idea'
+      meta: 'SunStratos | The Idea'
+      h1: The Idea
+      fold:
+        text1: This project aims to design a foldable wing mechanism for a High Altitude Long Endurance (HALE) fixed wing Unmanned Aerial Vehicle (UAV), enabling rapid deployment for various market sectors such as space, military, and humanitarian. 
+      uav:
+        text1: A high-altitude wing structure will be designed to incorporate the mechanism, facilitating the UAV's deployment from a carrier such as a rocket or high-altitude balloon.
+      ssi:
+        text1: The project sets specifications and requirements for the realization of the UAV, which will be taken forward by a student-led project under Sheffield Space Initiative. The students will work towards the goals of SSI, engaging in science and engineering challenges involved in the exploration of space
+        text2: Learn more about SSI Projects
+        text3: Visit the Sheffield Space Initiative Website
+
