@@ -6,4 +6,89 @@
 
 <%= stylesheet_link_tag "recruitment/index", :media => "all" %>
 
-<h1>recruitment page</h1>
+<div class="container-home">
+  <div class="container-box">
+    <div class="h1-box">
+      <h1><%= t 'recruitment.index.h1' %></h1>
+    </div>
+    <div class="sub-box">
+      <p><%= t 'recruitment.index.text1' %></p>
+      <p><%= t 'recruitment.index.text2' %></p>
+    </div>
+    <div class="application-box">
+      <div class="application-title">
+        <h2><%= t 'recruitment.index.application.h2' %></h2>
+      </div>
+      <div class="application-text">
+        <p><%= t 'recruitment.index.application.text1' %></p>
+      </div>
+      <div class="apply-box">
+        <p><%= link_to t('recruitment.index.application.apply'), '' %></p>
+      </div>
+    </div>
+    <div class="message-box">
+      <div class="message-title">
+        <h2><%= t 'recruitment.index.message.h2' %></h2>
+      </div>
+      <div class="message-flex">
+        <div class="message-desc">
+          <h3><%= t 'recruitment.index.message.h3' %></h3>
+          <p><%= t 'recruitment.index.message.text1' %></p>
+        </div>
+        <div class="message-pic">
+          <%= image_tag('achievement/rexus/rexus.png', alt: 'rexus') %>
+        </div>
+      </div>
+    </div>
+    <div class='team-box'>
+      <div class='team-h2'>
+        <h2><%= t 'recruitment.index.team.h2' %></h2>
+      </div>
+      <ul class='team-links'>
+        <li><%= link_to t('navbar.title.teams.team1'), team_aerostructures_path %></li>
+        <li><%= link_to t('navbar.title.teams.team2'), team_avionics_path %></li>
+        <li><%= link_to t('navbar.title.teams.team3'), team_resources_path %></li>
+        <li><%= link_to t('navbar.title.teams.team4'), team_webdevelopers_path %></li>
+      </ul>
+    </div>
+    <div class='values-box'>
+      <div class='value-title'>
+        <h2><%= t 'recruitment.index.value.h2' %></h2>
+      </div>
+      <div class='value-flex'>
+        <ul>
+          <li>
+            <%= image_tag('recruitment/innovation.jpg', alt: 'innovation') %>
+            <div class='value'>
+              <p><%= t 'recruitment.index.value.value1' %></p>
+            </div>
+          </li>
+          <li>
+            <%= image_tag('recruitment/sustainability.png', alt: 'sustainability') %>
+            <div class='value'>
+              <p><%= t 'recruitment.index.value.value2' %></p>
+            </div>
+          </li>
+          <li>
+            <%= image_tag('recruitment/teamwork.jpg', alt: 'teamwork') %>
+            <div class='value'>
+              <p><%= t 'recruitment.index.value.value3' %></p>
+            </div>
+          </li>
+          <li>
+            <%= image_tag('recruitment/global.png', alt: 'global') %>
+            <div class='value'>
+              <p><%= t 'recruitment.index.value.value4' %></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class='technical-box'>
+      <div class="technical-title">
+        <h2><%= t 'recruitment.index.technical.h2' %></h2>
+      </div>
+      <div>
+    </div>
+  </div>
+</div>
