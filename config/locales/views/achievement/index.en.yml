@@ -17,7 +17,8 @@ en:
         h2: "Space Investment Day 2020 - Sweden"
         text1: Our business pitch was chosen to be broadcasted live in the Space Investment Day event conducted in Sweden.
         text2: You can watch our pitch video here.
-        text3: More info about Space Investment Day can be found here.
+        text3: More info about Space Investment Day can be found
+        text4: ' here.'
       rig:
         test:
           h2: Aerodynamic Test Rig
