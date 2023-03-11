@@ -18,6 +18,7 @@
     <div class="application-box">
       <div class="application-title">
         <h2><%= t 'recruitment.index.application.h2' %></h2>
+        <hr>
       </div>
       <div class="application-text">
         <p><%= t 'recruitment.index.application.text1' %></p>
@@ -36,13 +37,14 @@
           <p><%= t 'recruitment.index.message.text1' %></p>
         </div>
         <div class="message-pic">
-          <%= image_tag('achievement/rexus/rexus.png', alt: 'rexus') %>
+          <%= image_tag('member/lead.png', alt: 'rexus') %>
         </div>
       </div>
     </div>
     <div class='team-box'>
       <div class='team-h2'>
         <h2><%= t 'recruitment.index.team.h2' %></h2>
+        <hr>
       </div>
       <ul class='team-links'>
         <li><%= link_to t('navbar.title.teams.team1'), team_aerostructures_path %></li>
@@ -89,7 +91,7 @@
         <h2><%= t 'recruitment.index.technical.h2' %></h2>
       </div>
       <div class='technical-desc'>
-        <ul class='technical-card'>
+        <ul class='head-card'>
           <li class='technical-head'>
             <div class='technical-img'>
               <%= image_tag('member/head.png', alt: 'adi') %>
@@ -106,6 +108,8 @@
               </div>
             </div>
           </li>
+        </ul>
+        <ul class='leads-card'>
           <li class='technical-leads'>
             <div class='technical-img'>
               <%= image_tag('member/head.png', alt: 'adi') %>
