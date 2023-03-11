@@ -1,3 +1,140 @@
 // Place all the styles related to the recruitment controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+@media screen and (min-width: 961px) {
+    .container-home {
+        margin: auto;
+        max-width: 1960px;
+        overflow: hidden;
+        padding-bottom: 100px;
+        background: linear-gradient(180deg, #1C3649 0%, #346992 100%);
+        .container-box {
+            .h1-box {
+                h1 {
+
+                }
+            }
+            .sub-box {
+                p {
+
+                }
+            }
+            .application-box {
+                .application-title {
+                    h2 {
+
+                    }
+                }
+                .application-text {
+                    p {
+
+                    }
+                }
+                .apply-box {
+                    p {
+
+                    }
+                }
+            }
+            .message-box {
+                .message-title {
+                    h2 {
+
+                    }
+                }
+                .message-flex {
+                    .message-desc {
+                        h3 {
+
+                        }
+                        p {
+
+                        }
+                    }
+                    .message-pic {
+                        img {
+
+                        }
+                    }
+                }
+            }
+            .team-box {
+                .team-h2 {
+                    h2 {
+
+                    }
+                }
+                .team-links {
+                    li {
+
+                    }
+                }
+            }
+            .values-box {
+                .value-title {
+                    h2 {
+
+                    }
+                }
+                .value-flex {
+                    ul {
+                        li {
+                            img {
+
+                            }
+                            .value {
+                                p {
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .technical-box {
+                .technical-title {
+                    h2 {
+
+                    }
+                }
+                .technical-desc {
+                    .technical-card {
+                        .technical-head {
+                            .technical-img {
+                                img {
+
+                                }
+                            }
+                            .card-desc {
+                                p {
+
+                                }
+                                hr {
+
+                                }
+                                .card-quote {
+                                    p {
+
+                                    }
+                                }
+                                .learn-more {
+                                    p {
+
+                                    }
+                                }
+                            }
+                        }
+                        .technical-leads {
+                            .technical-img {
+                                img {
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
