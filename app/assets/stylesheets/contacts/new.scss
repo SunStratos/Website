@@ -1,12 +1,14 @@
 @media screen and (min-width: 961px) {
     
     .container-form {
-        background-color: #162634;
+        background: linear-gradient(180deg, #3D7FAF 0%, #1B3143 100%);
         margin: auto;
         max-width: 1960px;
         overflow: hidden;
         .form-format {
             width: 60%;
+            padding-top: 8%;
+            padding-bottom: 8%;
             margin: auto;
             .container-box {
                 justify-content: center;

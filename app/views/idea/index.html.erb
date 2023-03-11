@@ -1,7 +1,51 @@
 <%
   # META
-  set_meta_tags :title => t('idea.index.h1'), :reverse => true
+  set_meta_tags :title => t('idea.index.meta'), :reverse => true
   set_meta_tags :description => '', :reverse => true
 %>
 
 <%= stylesheet_link_tag "idea/index", :media => "all" %>
+
+<div class="container-home">
+  <div class="container-box">
+    <div class="idea-title">
+      <h1><%= t 'idea.index.h1' %></h1>
+    </div>
+    <div class="container-form">
+      <div class="fold">
+        <div class="fold-flex">
+          <div class="fold-desc">
+            <p><%= t 'idea.index.fold.text1' %></p>
+          </div>
+          <div class="fold-pic">
+            <%= image_tag('idea/fold.jpg', alt: 'fold') %>
+          </div>
+        </div>
+      </div>
+      <div class="uav">
+        <div class="uav-flex">
+          <div class="uav-pic">
+            <%= image_tag('idea/uav.png', alt: 'UAV') %>
+          </div>
+          <div class="uav-desc">
+            <p><%= t 'idea.index.uav.text1' %></p>
+          </div>
+        </div>
+      </div>
+      <div class="ssi">
+        <div class="ssi-logo">
+          <%= image_tag('idea/uav.png', alt: 'SSI') %>
+        </div>
+        <div class="ssi-flex">
+          <div class="ssi-desc">
+            <p><%= t 'idea.index.ssi.text1' %></p>
+          </div>
+          <div class="ssi-link">
+            <p><%= link_to t('idea.index.ssi.text2'), 'http://www.google.com/url?q=http%3A%2F%2Fssi.group.shef.ac.uk%2FProjects.html&sa=D&sntz=1&usg=AOvVaw1yR7Ez_QimSu_xy_tV08jQ' %></p>
+            <p><%= link_to t('idea.index.ssi.text3'), 'http://www.google.com/url?q=http%3A%2F%2Fssi.group.shef.ac.uk%2Findex.html&sa=D&sntz=1&usg=AOvVaw0D2j_Pxy7SqAIg75QQnZaE' %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div>
+</div>
