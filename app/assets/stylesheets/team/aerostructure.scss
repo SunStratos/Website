@@ -1,9 +1,24 @@
-.images {
-    display: flex;
-    flex-direction: row;
+.aerostructures {
 
-    img {
-        width: 10%
+    h3 {
+        font-size: 1.25rem;
     }
 
+}
+
+.under-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    img {
+        width: 20%
+    }
+
+}
+
+.section {
+    padding: 3% 2%;
 }

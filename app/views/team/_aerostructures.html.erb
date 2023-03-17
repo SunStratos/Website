@@ -5,64 +5,74 @@
   <h3>This team is sectioned into other sub-teams:</h3>
   <div>
     <div class="collapse-boxes">
-      <div class="aerostructures section">
-        <div>
-            <button class="link-button" data-toggle="collapse" data-target="#aerostructures-section" aria-expanded="true" aria-controls="outreach">
-              Aerostructures
-            </button>
-        </div>
-        <p id="aerostructures section">The structural design team is responsible for developing the glider's framework, which includes the wings, fuselage, and other structural components. They use CAD software to model and simulate different design options and materials to ensure the glider is lightweight and strong enough to withstand the stresses of high-altitude flight. The team also works closely with the avionics team to integrate electrical circuits and other components into the structure of the glider.</p>
-        <div class="images">
-          <%= image_tag "leads/rory.JPG" %>
-          <%= image_tag "leads/rory.JPG" %>
-          <%= image_tag "leads/rory.JPG" %>
-        </div>
-      </div>
-      <div class="aerodynamics section">
-        <div>
-            <button class="link-button" data-toggle="collapse" data-target="#aerodynamics" aria-expanded="true" aria-controls="outreach">
-              Aerodynamics
-            </button>
-        </div>
-        <p id="aerodynamics">The aerodynamic design team works closely with the structural design team to optimize the glider's shape and profile for optimal performance. They use CFD software to analyze the airflow around the glider and make adjustments to improve lift, reduce drag, and increase efficiency. The team also focuses on ensuring the glider is stable and maneuverable at high altitudes, where the air density is low and the atmosphere behaves differently than at lower altitudes.</p>
-        <div class="images">
-          <%= image_tag "leads/rory.JPG" %>
-          <%= image_tag "leads/rory.JPG" %>
-          <%= image_tag "leads/rory.JPG" %>
-        </div>
-      </div>
-      <div class="manufacturing section">
-        <div>
-            <button class="link-button" data-toggle="collapse" data-target="#manufacturing" aria-expanded="true" aria-controls="outreach">
-              Manufacturing
-            </button>
-        </div>
-        <div id="manufacturing">
-          <p>The manufacturing team is responsible for taking the designs created by the structural and aerodynamic design team. The team works closely with the design team to ensure that the final product meets the required specifications and is both lightweight and strong enough to withstand the stresses of high-altitude flight.</p>
-          <p>The manufacturing team's responsibilities include selecting the appropriate materials for each component of the glider, creating detailed production plans, and supervising the assembly process. They also work to ensure that the manufacturing process is efficient and cost-effective while maintaining high levels of quality control.</p>
-          <div class="images">
+      <ul class=subteams>
+        <div class="aerostructures section">
+          <div>
+              <li>
+                <button class="link-button" data-toggle="collapse" data-target="#aerostructures-section" aria-expanded="true" aria-controls="outreach">
+                <h3>Aerostructures</h3>
+                </button>
+              </li>
+          </div>
+          <p id="aerostructures">The structural design team is responsible for developing the glider's framework, which includes the wings, fuselage, and other structural components. They use CAD software to model and simulate different design options and materials to ensure the glider is lightweight and strong enough to withstand the stresses of high-altitude flight. The team also works closely with the avionics team to integrate electrical circuits and other components into the structure of the glider.</p>
+          <div class="under-images">
             <%= image_tag "leads/rory.JPG" %>
             <%= image_tag "leads/rory.JPG" %>
             <%= image_tag "leads/rory.JPG" %>
           </div>
         </div>
-      </div>
-            <div class="recovery-section">
-        <div>
-            <button class="link-button" data-toggle="collapse" data-target="#recovery" aria-expanded="true" aria-controls="outreach">
-              Recovery
-            </button>
-        </div>
-        <div id="recovery">
-          <p>The recovery team for the SunStratos project is responsible for developing and implementing a plan to recover the glider after it has been launched from the SunrIde rocket at high altitude. This team plays an important role in ensuring the safe return of the glider and the valuable data it has collected.</p>
-          <p>The recovery team must consider a variety of factors, including the location and trajectory of the glider, weather conditions, and the terrain of the recovery area. They develop a recovery plan that  ensures a safe landing.</p>
-          <div class="images">
+        <div class="aerodynamics section">
+          <div>
+              <li>
+                <button class="link-button" data-toggle="collapse" data-target="#aerodynamics" aria-expanded="true" aria-controls="outreach">
+                <h3>Aerodynamics</h3>
+                </button>
+              </li>
+          </div>
+          <p id="aerodynamics">The aerodynamic design team works closely with the structural design team to optimize the glider's shape and profile for optimal performance. They use CFD software to analyze the airflow around the glider and make adjustments to improve lift, reduce drag, and increase efficiency. The team also focuses on ensuring the glider is stable and maneuverable at high altitudes, where the air density is low and the atmosphere behaves differently than at lower altitudes.</p>
+          <div class="under-images">
             <%= image_tag "leads/rory.JPG" %>
             <%= image_tag "leads/rory.JPG" %>
             <%= image_tag "leads/rory.JPG" %>
           </div>
         </div>
-      </div>
+        <div class="manufacturing section">
+          <div>
+              <li>
+                <button class="link-button" data-toggle="collapse" data-target="#manufacturing" aria-expanded="true" aria-controls="outreach">
+                <h3>Manufacturing</h3>
+                </button>
+              </li>
+          </div>
+          <div id="manufacturing">
+            <p>The manufacturing team is responsible for taking the designs created by the structural and aerodynamic design team. The team works closely with the design team to ensure that the final product meets the required specifications and is both lightweight and strong enough to withstand the stresses of high-altitude flight.</p>
+            <p>The manufacturing team's responsibilities include selecting the appropriate materials for each component of the glider, creating detailed production plans, and supervising the assembly process. They also work to ensure that the manufacturing process is efficient and cost-effective while maintaining high levels of quality control.</p>
+            <div class="under-images">
+              <%= image_tag "leads/rory.JPG" %>
+              <%= image_tag "leads/rory.JPG" %>
+              <%= image_tag "leads/rory.JPG" %>
+            </div>
+          </div>
+        </div>
+              <div class="recovery-section">
+          <div>
+              <li>
+                <button class="link-button" data-toggle="collapse" data-target="#recovery-section" aria-expanded="true" aria-controls="outreach">
+                <h3>Recovery</h3>
+                </button>
+              </li>
+          </div>
+          <div id="recovery">
+            <p>The recovery team for the SunStratos project is responsible for developing and implementing a plan to recover the glider after it has been launched from the SunrIde rocket at high altitude. This team plays an important role in ensuring the safe return of the glider and the valuable data it has collected.</p>
+            <p>The recovery team must consider a variety of factors, including the location and trajectory of the glider, weather conditions, and the terrain of the recovery area. They develop a recovery plan that  ensures a safe landing.</p>
+            <div class="under-images">
+              <%= image_tag "leads/rory.JPG" %>
+              <%= image_tag "leads/rory.JPG" %>
+              <%= image_tag "leads/rory.JPG" %>
+            </div>
+          </div>
+        </div>
+      </ul>
     </div>
   </div>
 </div>
