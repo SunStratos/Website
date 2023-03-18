@@ -1,35 +1,51 @@
 <footer class="site-footer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="logo-side">
-        <img src="/assets/logo/sunstratos_logo_dark_backgorund.png" alt="SunStratos">
-        <p><%= t('footer.email')%></p>
-    </div>
-    <div class="quick-links">
-        <h3><%= t('footer.quicklinks.find')%></h3>
-        <ul>
-            <li><%= link_to t('footer.quicklinks.project'), project_path %></li>
-            <li><%= link_to t('footer.quicklinks.team'), team_path %></li>
-            <li><%= link_to t('footer.quicklinks.idea'), idea_path %></li>
-            <li><%= link_to t('footer.quicklinks.achievements'), achievement_path %></li>
-            <li><%= link_to t('footer.quicklinks.recruitment'), recruitment_path %></li>
-            <li><%= link_to t('footer.quicklinks.contact'), new_contact_path %></li>
-        </ul>
-    </div>
-    <div class="motto-side">
-        <h3><%= t('footer.motto.main')%></h3>
-        <p><%= t('footer.motto.mission')%></p>
-    </div>
-    <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text"><%= t('footer.copyright')%></p>
+    <div class="top-half">
+        <div class="logo-side">
+            <img src="/assets/logo/sunstratos_logo_dark_backgorund.png" alt="sunstratos">
+            <p><%= t('footer.email')%></p>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-        <ul class="social-icons">
-            <li><a target="_blank" rel="noopener" class="facebook" href="https://www.facebook.com/Sunstratos2020/"><i class="fa fa-facebook"></i></a></li>
-            <li><a target="_blank" rel="noopener" class="twitter" href="https://twitter.com/stratossun?lang=en-GB"><i class="fa fa-twitter"></i></a></li>
-            <li><a target="_blank" rel="noopener" class="instagram" href="https://www.instagram.com/sunstratosproject/?hl=en"><i class="fa fa-instagram"></i></a></li>
-            <li><a target="_blank" rel="noopener" class="linkedin" href="https://www.linkedin.com/company/sunstratos/mycompany/"><i class="fa fa-linkedin"></i></a></li> 
-        </ul>
+        <div class="quick-links">
+            <h3><%= t('footer.quicklinks.find')%></h3>
+            <div class="links">
+                <ul>
+                    <div class="left-side">
+                        <li><%= link_to t('footer.quicklinks.project'), project_path %></li>
+                        <li><%= link_to t('footer.quicklinks.team'), team_path %></li>
+                        <li><%= link_to t('footer.quicklinks.idea'), idea_path %></li>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="right-side">
+                        <li><%= link_to t('footer.quicklinks.achievements'), achievement_path %></li>
+                        <li><%= link_to t('footer.quicklinks.recruitment'), recruitment_path %></li>
+                        <li><%= link_to t('footer.quicklinks.contact'), new_contact_path %></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="motto-side">
+            <h3><%= t('footer.motto.main')%></h3>
+            <p><%= t('footer.motto.mission')%></p>
+        </div>
+    </div>
+    <div class="bottom-half">
+        <div class="logos">
+            <img src="/assets/organisations/sheffieldlogo.png" alt="the university of sheffield">
+            <img src="/assets/organisations/sunridelogo.png" alt="sunride">
+            <img src="/assets/organisations/ssilogo.png" alt="ssilogo">
+            <img src="/assets/organisations/iforgelogo.png" alt="iforge">
+        </div>
+        <div class="copyright">
+            <p><%= t('footer.copyright')%></p>
+        </div>
+        <div class="social-icons">
+            <ul>
+                <li><a target="_blank" rel="noopener" class="facebook" href="https://www.facebook.com/Sunstratos2020/"><i class="fa fa-facebook"></i></a></li>
+                <li><a target="_blank" rel="noopener" class="twitter" href="https://twitter.com/stratossun?lang=en-GB"><i class="fa fa-twitter"></i></a></li>
+                <li><a target="_blank" rel="noopener" class="instagram" href="https://www.instagram.com/sunstratosproject/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                <li><a target="_blank" rel="noopener" class="linkedin" href="https://www.linkedin.com/company/sunstratos/mycompany/"><i class="fa fa-linkedin"></i></a></li> 
+            </ul>
         </div>
     </div>
 </footer>
