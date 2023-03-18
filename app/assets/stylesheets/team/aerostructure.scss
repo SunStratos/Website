@@ -1,18 +1,22 @@
-.aerostructures {
-  h3 {
-    font-size: 1.25rem;
-  }
+.collapse {
+    padding-top: 1.5rem;
+}
+
+.section {
+    h3 {
+        font-size: 1.25rem;
+    }
 }
 
 .under-images {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-
-  img {
-    width: 20%;
-  }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    img {
+        width: 20%
+    }
 }
 
 .section {
