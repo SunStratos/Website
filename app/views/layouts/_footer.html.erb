@@ -1,6 +1,24 @@
 <footer class="site-footer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <div class="logo-side">
+        <img src="/assets/logo/sunstratos_logo_dark_backgorund.png" alt="SunStratos">
+        <p><%= t('footer.email')%></p>
+    </div>
+    <div class="quick-links">
+        <h3><%= t('footer.quicklinks.find')%></h3>
+        <ul>
+            <li><%= link_to t('footer.quicklinks.project'), project_path %></li>
+            <li><%= link_to t('footer.quicklinks.team'), team_path %></li>
+            <li><%= link_to t('footer.quicklinks.idea'), idea_path %></li>
+            <li><%= link_to t('footer.quicklinks.achievements'), achievement_path %></li>
+            <li><%= link_to t('footer.quicklinks.recruitment'), recruitment_path %></li>
+            <li><%= link_to t('footer.quicklinks.contact'), new_contact_path %></li>
+        </ul>
+    </div>
+    <div class="motto-side">
+        <h3><%= t('footer.motto.main')%></h3>
+        <p><%= t('footer.motto.mission')%></p>
+    </div>
     <div class="row">
         <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text"><%= t('footer.copyright')%></p>
