@@ -1,3 +1,434 @@
 // Place all the styles related to the recruitment controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+@media screen and (min-width: 961px) {
+    .container-home {
+        margin: auto;
+        max-width: 1960px;
+        overflow: hidden;
+        padding-bottom: 100px;
+        background: linear-gradient(180deg, #1C3649 0%, #346992 100%);
+        .container-box {
+            width: 75%;
+            height: 100%;
+            margin: 0 auto;
+            .h1-box {
+                justify-content: center;
+                padding-top: 7.5%;
+                h1 {
+                    font-family: 'Playfair Display';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 50px;
+                    line-height: 67px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+            .sub-box {
+                padding-top: 3%;
+                margin-bottom: 8%;
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+            .application-box {
+                width: 80%;
+                margin: 0 auto;
+                background: #F9F9F9;
+                box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.65);
+                border-radius: 20px;
+                padding-bottom: 2%;
+                .application-title {
+                    padding-left: 5%;
+                    padding-top: 2%;
+                    h2 {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 38px;
+                        line-height: 48px;
+                        color: #3E80B1;
+                    }
+                    hr {
+                        width: 20%;
+                        border: 1px solid #3E80B1;
+                    }
+                }
+                .application-text {
+                    text-align: center;
+                    justify-content: center;
+                    p {
+                        font-family: 'Playfair Display';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 20px;
+                        color: #000000;
+                        margin: 5%;
+                    }
+                }
+                .apply-box {
+                    background: #3E80B1;
+                    border-radius: 18px;
+                    width: 30%;
+                    margin-left: 65%;
+                    padding: 5px;
+                    p {
+                        font-family: 'Playfair Display';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        margin: 0;
+                        a {
+                            width: 100%;
+                            display: block;
+                            color: #FFFFFF;
+                            text-decoration: none;
+                        }
+                        a:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .message-box {
+                margin: 0 auto;
+                padding-bottom: 8%;
+                .message-title {
+                    margin-top: 5%;
+                    text-align: center;
+                    padding-bottom: 6%;
+                    h2 {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 38px;
+                        line-height: 48px;
+                        color: #FFFFFF;
+                    }
+                }
+                .message-flex {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: space-around;;
+                    .message-desc {
+                        text-align: center;
+                        h3 {
+                            font-family: 'Source Serif Pro';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 38px;
+                            line-height: 48px;
+                            color: #FFFFFF;
+                        }
+                        p {
+                            font-family: 'Playfair Display';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 20px;
+                            color: #FFFFFF
+                        }
+                    }
+                    .message-pic {
+                        width: 234px;
+                        height: 265px;
+                        img {
+                            width: 234px;
+                            height: 265px;
+                            object-fit: cover;
+                            border-radius: 25px;
+                            filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+                        }
+                    }
+                }
+            }
+            .team-box {
+                width: 80%;
+                margin: 0 auto;
+                padding: 3%;
+                background: #517285;
+                box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 25px;
+                .team-h2 {
+                    width: auto;
+                    height: auto;
+                    h2 {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 38px;
+                        line-height: 48px;
+                        color: #FFFFFF;
+                    }
+                    hr {
+                        width: 22%;
+                        border: 1px solid #FFFFFF;
+                    }
+                }
+                .team-links {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    list-style-type: none;
+                    padding-top: 2%;
+                    li {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        a {
+                            width: 100%;
+                            display: block;
+                            color: #FFFFFF;
+                            text-decoration: none;
+                        }
+                        a:hover {
+                            color: #1C3649;
+                        }
+                    }
+                }
+            }
+            .values-box {
+                width: 100%;
+                height: auto;
+                margin-top: 10%;
+                .value-title {
+                    text-align: center;
+                    margin: 0 auto;
+                    padding-bottom: 3%;
+                    h2 {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 38px;
+                        line-height: 48px;
+                        color: #FFFFFF;
+                    }
+                }
+                .value-flex {
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        list-style-type: none;
+                        li {
+                            img {
+                                width: 147px;
+                                height: 147px;
+                                border-radius: 177px;
+                                transform: matrix(-1, 0, 0, 1, 0, 0);
+                                background-color: #FFFFFF;
+                            }
+                            .value {
+                                background: #FFFFFF;
+                                border-radius: 8px;
+                                text-align: center;
+                                margin-top: 15%;
+                                p {
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    color: #000000;
+                                    padding: 4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .technical-box {
+                width: 100%;
+                height: auto;
+                margin-top: 10%;
+                .technical-title {
+                    text-align: center;
+                    margin: 0 auto;
+                    padding-bottom: 3%;
+                    h2 {
+                        font-family: 'Source Serif Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 38px;
+                        line-height: 48px;
+                        color: #FFFFFF;
+                    }
+                }
+                .technical-desc {
+                    .head-card {
+                        list-style-type: none;
+                        width: 322px;
+                        height: auto;
+                        background: #FFFFFF;
+                        border-radius: 15px;
+                        padding-left: 0;
+                        margin: 0 auto;
+                        transition: box-shadow .3s;
+                        margin-bottom: 10%;
+                        .technical-head {
+                            width: 100%;
+                            height: 527px;
+                            border-radius: 15px;
+                            .technical-img {
+                                width: 322px;
+                                height: 218px;
+                                img {
+                                    width: 322px;
+                                    height: 218px;
+                                    object-fit: cover;
+                                    border-radius: 15px;
+                                    border-radius: 15px 15px 0px 0px;
+                                }
+                            }
+                            .card-desc {
+                                margin: 9%;
+                                p {
+                                    font-family: 'Source Serif Pro';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    line-height: 23px;
+                                    color: #3E80B1;
+                                }
+                                hr {
+                                    width: 22%;
+                                    border: 1px solid #3E80B1;
+                                }
+                                .card-quote {
+                                    background-color: #D9D9D9;
+                                    width: auto;
+                                    height: 100px;
+                                    padding: 10px;
+                                    border-radius: 5px;
+                                    margin-top: 15%;
+                                    p {
+                                        text-align: center;
+                                    }
+                                }
+                                .learn_more {
+                                    padding-top: 12%;
+                                    text-align: end;
+                                    p {
+                                        font-family: 'Source Serif Pro';
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 13px;
+                                        line-height: 16px;
+                                        color: #3E80B1;
+                                        a {
+                                            width: 100%;
+                                            display: block;
+                                            color: #3E80B1;
+                                            text-decoration: none;
+                                        }
+                                        a:hover {
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .head-card:hover {
+                        box-shadow: 5px 5px 5px black; 
+                    }
+                    .leads-card {
+                        list-style-type: none;
+                        width: auto;
+                        height: auto;
+                        padding-left: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 5%;
+                        .technical-leads {
+                            width: 322px;
+                            height: 527px;
+                            border-radius: 15px;
+                            background: #FFFFFF;
+                            margin-bottom: 5%;
+                            transition: box-shadow .3s;
+                            .technical-img {
+                                width: 322px;
+                                height: 218px;
+                                img {
+                                    width: 322px;
+                                    height: 218px;
+                                    object-fit: cover;
+                                    border-radius: 15px 15px 0px 0px;
+                                }
+                            }
+                        }
+                        .technical-leads:hover {
+                            box-shadow: 5px 5px 5px black;
+                        }
+                        .card-desc {
+                            margin: 9%;
+                            p {
+                                font-family: 'Source Serif Pro';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 23px;
+                                color: #3E80B1;
+                            }
+                            hr {
+                                width: 22%;
+                                border: 1px solid #3E80B1;
+                            }
+                            .card-quote {
+                                background-color: #D9D9D9;
+                                width: auto;
+                                height: 100px;
+                                padding: 10px;
+                                border-radius: 5px;
+                                margin-top: 15%;
+                                p {
+                                    text-align: center;
+                                }
+                            }
+                            .learn_more {
+                                padding-top: 12%;
+                                text-align: end;
+                                p {
+                                    font-family: 'Source Serif Pro';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 13px;
+                                    line-height: 16px;
+                                    color: #3E80B1;
+                                    a {
+                                        width: 100%;
+                                        display: block;
+                                        color: #3E80B1;
+                                        text-decoration: none;
+                                    }
+                                    a:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
