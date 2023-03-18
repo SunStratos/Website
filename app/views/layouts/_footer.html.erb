@@ -1,35 +1,6 @@
 <footer class="site-footer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="row-footer">
-        <div class="col-sm-12 col-md-6">
-            <div class="footer-images">
-                <div class="sheffield-logo">
-                    <%= link_to image_tag("organisations/sheffieldlogo.png", :alt => "The University of Sheffield"), 'https://www.sheffield.ac.uk/', target: '_blank' %>
-                </div>
-                <div class="ssi-iforge">
-                    <div class="ssi">
-                        <%= link_to image_tag("organisations/ssilogo.png", :alt => "Sheffield Space Initiative"), 'https://ssi.sites.sheffield.ac.uk/', target: '_blank', rel: "noopener" %>
-                    </div>
-                    <div class="iforge">
-                        <%= link_to image_tag("organisations/iforgelogo.png", :alt => "iForge"), 'https://iforgesheffield.org/', target: '_blank', rel: "noopener" %>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-        <h6>Quick Links</h6>
-        <ul class="footer-links">
-            <li><%= link_to t('footer.quicklinks.project'), project_path %></li>
-            <li><%= link_to t('footer.quicklinks.team'), team_path %></li>
-            <li><%= link_to t('footer.quicklinks.idea'), idea_path %></li>
-            <li><%= link_to t('footer.quicklinks.achievements'), achievement_path %></li>
-            <li><%= link_to t('footer.quicklinks.recruitment'), recruitment_path %></li>
-            <li><%= link_to t('footer.quicklinks.contact'), new_contact_path %></li>
-        </ul>
-        </div>
-    </div>
-    <hr>
-    </div>
+    
     <div class="row">
         <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text"><%= t('footer.copyright')%></p>

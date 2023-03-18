@@ -1,12 +1,16 @@
 en:
   footer:
     copyright: "Copyright © 2023 All rights reserved"
+    email: "sunstratos@sheffield.ac.uk"
     quicklinks:
-      home: "Home"
+      find: "Find Out More..."
       project: "The Project"
       team: "Our Team"
-      idea: "The idea"
+      idea: "The Idea"
       achievements: "Achievements"
       recruitment: "Recruitment"
       contact: "Contact Us"
+    motto:
+      main: "EJECT-FLY-RECOVER"
+      mission: "Stratosphere Programme develop solutions that capitalize on the use of upper layers of the atmosphere for strategic missions."
     
