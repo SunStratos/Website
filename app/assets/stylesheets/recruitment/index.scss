@@ -68,8 +68,8 @@
                     p {
                         font-family: 'Playfair Display';
                         font-style: normal;
-                        font-weight: 400;
-                        font-size: 15px;
+                        font-weight: bolder;
+                        font-size: 20px;
                         line-height: 20px;
                         color: #000000;
                         margin: 5%;
@@ -510,7 +510,7 @@
                     p {
                         font-family: 'Playfair Display';
                         font-style: normal;
-                        font-weight: 400;
+                        font-weight: bolder;
                         font-size: 1.2em;
                         line-height: 20px;
                         color: #000000;
@@ -587,12 +587,13 @@
                             text-align: center;
                         }
                         p {
-                            font-family: 'Playfair Display';
+                            font-family: 'Inter';
                             font-style: normal;
                             font-weight: 400;
                             font-size: 1.2em;
-                            line-height: 20px;
-                            color: #FFFFFF
+                            line-height: 24px;
+                            text-align: justify;
+                            color: #FFFFFF;
                         }
                     }
                 }
