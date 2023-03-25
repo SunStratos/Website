@@ -7,12 +7,27 @@ en:
       text2: So if you're passionate about making a difference and have ideas to share, don't hesitate to reach out to us. We're eager to work with like-minded people and have a great influence as a team.
       application:
         h2: Application Form
-        text1: 2024 application will be open as soon as possible.
+        text1: Recruitment for the 2023/2024 team is now open.
         apply: Apply now
       message:
         h2: Message
-        h3: Rory message title
-        text1: rory message text
+        h3: SunStratos Wants YOU
+        text1: "Do you want some real-life work experience applying your degree?
+Are you looking to set yourself apart at future job interviews?
+Are you interested in building an autonomous glider for use on other planets or
+supporting the team's operations?
+Are you interested in participating in exciting international competitions and working
+with the likes of the European Space Agency and Nasa?"
+        text2: "At SunStratos, a UoS student-led project, we design, develop, prototype, build and
+test an autonomous glider along with its supporting equipment for use on planets
+like Mars. In the past, we have worked with the European Space Agency as well as
+other private companies like Rolls Royce. We’re a close-knit team, we look out for
+each other, and we host fun, inclusive socials (in fact we have a couple positions
+open for specifically this task).
+If you’re interested in this opportunity to apply your knowledge and skills, improve
+yourself, do a little networking, and give yourself an edge at future job interviews, 
+please have a look at our open positions and fill out our quick and easy application
+form below!"
       team:
         h2: Our Team
       value:
@@ -22,20 +37,21 @@ en:
         value3: Teamwork
         value4: Global
       technical:
-        h2: Technical Leads Interview
+        h2: Technical Leads
         role: Technical Head
-        head: Adi
-        quote: I am the boss
-        more: Learn more
+        head: Aditya Parnanadi
+        quote: "Innit fam"
+        quote1_2: Just join!
+        more: LinkedIn
         role2: Aerostructure
-        name2: Adi
-        quote2: I am the boss
+        name2: Aditya Parnanadi
+        quote2: Me again
         role3: Avionics
         name3: Adi
         quote3: I am the boss
         role4: Web Development
-        name4: Adi
-        quote4: I am the boss
+        name4: Alessandro Perelli
+        quote4: MAMAMIA ! PIZZA ! GELATO !! SPAGHETTI !!!
         role5: Resources
         name5: Adi
         quote5: I am the boss
