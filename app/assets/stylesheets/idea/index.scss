@@ -98,7 +98,7 @@
                     border-radius: 15px;
                     padding-bottom: 3%;
                     .ssi-logo {
-                        padding-top: 5%;
+                        padding-top: 3%;
                         text-align: center;
                         img {
                             width: 490px;
@@ -109,12 +109,14 @@
                     .ssi-flex {
                         display: flex;
                         flex-wrap: wrap;
-                        gap: 10%;
+                        gap: 5%;
                         justify-content: center;
+                        width: 90%;
+                        margin: 0 auto;
+                        align-items: center;
                         .ssi-desc {
                             width: 50%;
                             height: 100%;
-                            padding-top: 7%;
                             text-align: justify;
                             p {
                                 font-family: 'Nunito';
@@ -126,7 +128,6 @@
                             }
                         }
                         .ssi-link {
-                            padding-top: 10%;
                             p {
                                 font-family: 'Source Serif Pro';
                                 font-style: normal;
