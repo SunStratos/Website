@@ -75,3 +75,60 @@
         }
     }
 }
+
+@media screen and (max-width: 960px) {
+    .container-form {
+        background: linear-gradient(180deg, #3D7FAF 0%, #1B3143 100%);
+        min-width: 320px;
+        overflow: hidden;
+        .form-format {
+            width: 90%;
+            margin: 0 auto;
+            .container-box {
+                justify-content: center;
+                display: grid;
+                h1.form {
+                    text-align: center;
+                    color: #FFF;
+                    letter-spacing: .2rem;
+                    padding-top: 15%;
+                }
+            }
+            form {
+                margin: auto;
+            }
+            .col-md-6-form {
+                .form-box {
+                    padding-bottom: 10%;
+                    justify-content: center;
+                    padding-right: 3%;
+                    .form-email {
+                        input{
+                            width: 100%;
+                            text-align: left;
+                            padding-left: 7px;
+                        }
+                    }
+                    textarea {
+                        border-radius: 0.7em;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        padding-top: 5px;
+                    }
+                    input {
+                        border-radius: 0.5em;
+                    }
+                    label {
+                        color: #FFF;
+                        padding: 15px 10px 5px;
+                        font-weight: 100;
+                    }
+                    .submit-form {
+                        text-align: right;
+                        padding-top: 3%;
+                    }
+                }
+            }
+        }
+    }
+}
