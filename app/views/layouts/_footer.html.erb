@@ -1,46 +1,67 @@
 <footer class="site-footer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="row-footer">
-        <div class="col-sm-12 col-md-6">
-            <div class="footer-images">
-                <div class="sheffield-logo">
-                    <%= link_to image_tag("organisations/sheffieldlogo.png", :alt => "The University of Sheffield"), 'https://www.sheffield.ac.uk/', target: '_blank' %>
+    <div class="footer-container">
+        <div class="container-flex">
+            <div class="sunstratos">
+                <div class="logo">
+                    <%= image_tag('/assets/logo/sunstratos_logo_dark_backgorund.png', alt: 'sunstratos-logo') %>
                 </div>
-                <div class="ssi-iforge">
-                    <div class="ssi">
-                        <%= link_to image_tag("organisations/ssilogo.png", :alt => "Sheffield Space Initiative"), 'https://ssi.sites.sheffield.ac.uk/', target: '_blank', rel: "noopener" %>
-                    </div>
-                    <div class="iforge">
-                        <%= link_to image_tag("organisations/iforgelogo.png", :alt => "iForge"), 'https://iforgesheffield.org/', target: '_blank', rel: "noopener" %>
-                    </div>
+                <div class='email'>
+                    <%= mail_to "sunstratos@sheffield.ac.uk" do %>
+                        <span>sunstratos@sheffield.ac.uk</span>
+                    <% end %>
+                </div>
+            </div>
+            <div class='links'>
+                <div class='links-more'>
+                    <h2><%= t 'footer.links.title' %></h2>
+                </div>
+                <ul class='page-links'>
+                    <li><%= link_to t('footer.links.quicklinks.project'), project_path %></li>
+                    <li><%= link_to t('footer.links.quicklinks.team'), team_path %></li>
+                    <li><%= link_to t('footer.links.quicklinks.idea'), idea_path %></li>
+                    <li><%= link_to t('footer.links.quicklinks.achievements'), achievement_path %></li>
+                    <li><%= link_to t('footer.links.quicklinks.recruitment'), recruitment_path %></li>
+                    <li><%= link_to t('footer.links.quicklinks.contact'), new_contact_path %></li>
+                </ul>
+            </div>
+            <div class='quote'>
+                <div class='quote-h2'>
+                    <h2><%= t 'footer.quote.title' %></h2>
+                </div>
+                <div class='quote-desc'>
+                    <p><%= t 'footer.quote.desc' %></p>
                 </div>
             </div>
         </div>
-        <div class="col-xs-6 col-md-3">
-        <h6>Quick Links</h6>
-        <ul class="footer-links">
-            <li><%= link_to t('footer.quicklinks.project'), project_path %></li>
-            <li><%= link_to t('footer.quicklinks.team'), team_path %></li>
-            <li><%= link_to t('footer.quicklinks.idea'), idea_path %></li>
-            <li><%= link_to t('footer.quicklinks.achievements'), achievement_path %></li>
-            <li><%= link_to t('footer.quicklinks.recruitment'), recruitment_path %></li>
-            <li><%= link_to t('footer.quicklinks.contact'), new_contact_path %></li>
-        </ul>
+        <hr>
+        <div class="container-flex2">
+            <div class='logos'>
+                <div class="sheff-logo">
+                    <%= image_tag('/assets/organisations/sheffieldlogo.png', alt: 'sheffield-logo') %>
+                </div>
+                <hr>
+                <div class='logo-flex'>
+                    <div class="projects-logo">
+                        <li><%= image_tag('/assets/organisations/sunridelogo.png', alt: 'sunride-logo') %></li>
+                        <li><%= image_tag('/assets/organisations/ssilogo.png', alt: 'ssi-logo') %></li>
+                    </div>
+                    <div class='iforge'>
+                        <%= image_tag('/assets/organisations/iforgelogo.png', alt: 'iforge-logo') %>
+                    </div>
+                </div>
+            </div>
+            <div class='social-media'>
+                <ul class="social-icons">
+                    <li><a target="_blank" rel="noopener" class="facebook" href="https://www.facebook.com/Sunstratos2020/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" rel="noopener" class="twitter" href="https://twitter.com/stratossun?lang=en-GB"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" rel="noopener" class="instagram" href="https://www.instagram.com/sunstratosproject/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                    <li><a target="_blank" rel="noopener" class="linkedin" href="https://www.linkedin.com/company/sunstratos/mycompany/"><i class="fa fa-linkedin"></i></a></li> 
+                </ul>
+            </div>
         </div>
-    </div>
-    <hr>
-    </div>
-    <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text"><%= t('footer.copyright')%></p>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-        <ul class="social-icons">
-            <li><a target="_blank" rel="noopener" class="facebook" href="https://www.facebook.com/Sunstratos2020/"><i class="fa fa-facebook"></i></a></li>
-            <li><a target="_blank" rel="noopener" class="twitter" href="https://twitter.com/stratossun?lang=en-GB"><i class="fa fa-twitter"></i></a></li>
-            <li><a target="_blank" rel="noopener" class="instagram" href="https://www.instagram.com/sunstratosproject/?hl=en"><i class="fa fa-instagram"></i></a></li>
-            <li><a target="_blank" rel="noopener" class="linkedin" href="https://www.linkedin.com/company/sunstratos/mycompany/"><i class="fa fa-linkedin"></i></a></li> 
-        </ul>
+        <div class='copyr'>
+                <p><%= t 'footer.copyright' %></p>
         </div>
     </div>
 </footer>
