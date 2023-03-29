@@ -119,6 +119,7 @@
             .disc-title {
                 margin: auto;
                 padding: 20px;
+                padding-bottom: 4%;
                 .home-sub {
                     color: #fff;
                     font-weight: 400;
@@ -129,8 +130,9 @@
             }
             .disc-text {
                 display: flex;
-                width: 68%;
+                width: 65%;
                 margin: 0 auto;
+                gap: 5%;
                 justify-content: space-between;
                 flex-wrap: wrap;
             }
