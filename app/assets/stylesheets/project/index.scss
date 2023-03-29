@@ -114,6 +114,27 @@
                 }
             }
         }
+        .insta-container {
+            width: 100%;
+            .disc-title {
+                margin: auto;
+                padding: 20px;
+                .home-sub {
+                    color: #fff;
+                    font-weight: 400;
+                    text-align: center;
+                    font-family: serif;
+                    letter-spacing: 0.12em;
+                }
+            }
+            .disc-text {
+                display: flex;
+                width: 68%;
+                margin: 0 auto;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+        }
         .process-container {
             padding-top: 50px;
             .process-title {
@@ -237,6 +258,25 @@
                         }
                     }
                 }
+            }
+        }
+        .insta-container {
+            width: 100%;
+            .disc-title {
+                padding-bottom: 7%;
+                .home-sub {
+                    color: #fff;
+                    font-weight: 400;
+                    text-align: center;
+                    font-family: serif;
+                    letter-spacing: 0.12em;
+                    font-size: 2.2em;
+                }
+            }
+            .disc-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
             }
         }
         .process-container {
