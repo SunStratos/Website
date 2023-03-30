@@ -1,4 +1,22 @@
 en:
   team:
     aerostructure:
-      meta: 'SunStratos | Aerostructure'
+      meta: "SunStratos | Aerostructure"
+      description: "The structural design team is responsible for designing and optimizing the glider's structural and aerodynamic components."
+      team: "This team is sectioned into other sub-teams:"
+    subteams:
+      aerostructures:
+        title: "Aerostructures"
+        information: "The structural design team is responsible for developing the glider's framework, which includes the wings, fuselage, and other structural components. They use CAD software to model and simulate different design options and materials to ensure the glider is lightweight and strong enough to withstand the stresses of high-altitude flight. The team also works closely with the avionics team to integrate electrical circuits and other components into the structure of the glider."
+      aerodynamics:
+        title: "Aerodynamics"
+        information: "The aerodynamic design team works closely with the structural design team to optimize the glider's shape and profile for optimal performance. They use CFD software to analyze the airflow around the glider and make adjustments to improve lift, reduce drag, and increase efficiency. The team also focuses on ensuring the glider is stable and maneuverable at high altitudes, where the air density is low and the atmosphere behaves differently than at lower altitudes."
+      manufacturing:
+        title: "Manufacturing"
+        information: "The manufacturing team is responsible for taking the designs created by the structural and aerodynamic design team. The team works closely with the design team to ensure that the final product meets the required specifications and is both lightweight and strong enough to withstand the stresses of high-altitude flight."
+        responsibilities: "The manufacturing team's responsibilities include selecting the appropriate materials for each component of the glider, creating detailed production plans, and supervising the assembly process. They also work to ensure that the manufacturing process is efficient and cost-effective while maintaining high levels of quality control."
+      recovery:
+        title: "Recovery"
+        information: "The recovery team for the SunStratos project is responsible for developing and implementing a plan to recover the glider after it has been launched from the SunrIde rocket at high altitude. This team plays an important role in ensuring the safe return of the glider and the valuable data it has collected."
+        responsibilities: "The recovery team must consider a variety of factors, including the location and trajectory of the glider, weather conditions, and the terrain of the recovery area. They develop a recovery plan that  ensures a safe landing."
+      

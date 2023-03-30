@@ -1,24 +1,25 @@
 .aerostructures {
-
-    h3 {
-        font-size: 1.25rem;
-    }
-
+  h3 {
+    font-size: 1.25rem;
+  }
 }
 
 .under-images {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 
-    img {
-        width: 20%
-    }
-
+  img {
+    width: 20%;
+  }
 }
 
 .section {
-    padding: 3% 2%;
+  padding: 3% 2%;
+}
+
+.sub-section {
+    display: flex;
+    flex-direction: column;
 }

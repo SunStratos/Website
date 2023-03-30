@@ -1,12 +1,12 @@
 en:
   team:
     index:
-      meta: 'SunStratos | Our Team'
+      meta: "SunStratos | Our Team"
       leads:
-        project: 'Rory Gavin - Project Lead'
-        technical: 'Aditya Parnandi - Technical Lead'
+        project: "Rory Gavin - Project Lead"
+        technical: "Aditya Parnandi - Technical Lead"
       teams:
-        aerostructures: 'Aerostructures'
-        avionics: 'Avionics'
-        resources: 'Resources'
-        web: 'Web Development'
+        aerostructures: "Aerostructures"
+        avionics: "Avionics"
+        resources: "Resources"
+        web: "Web Development"
