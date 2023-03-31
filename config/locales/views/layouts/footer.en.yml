@@ -1,12 +1,17 @@
 en:
   footer:
     copyright: "Copyright © 2023 All rights reserved"
-    quicklinks:
-      home: "Home"
-      project: "The Project"
-      team: "Our Team"
-      idea: "The idea"
-      achievements: "Achievements"
-      recruitment: "Recruitment"
-      contact: "Contact Us"
+    links:
+      title: 'Find Out More...'
+      quicklinks:
+        home: "Home"
+        project: "The Project"
+        team: "Our Team"
+        idea: "The idea"
+        achievements: "Achievements"
+        recruitment: "Recruitment"
+        contact: "Contact Us"
+    quote:
+      title: 'EJECT - FLY - RECOVER'
+      desc: 'Stratosphere Programme develop solutions that capitalize on the use of upper layers of the atmosphere for strategic missions.'
     

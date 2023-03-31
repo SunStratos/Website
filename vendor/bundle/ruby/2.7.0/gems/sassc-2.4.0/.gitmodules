@@ -1,3 +1,6 @@
 [submodule "ext/libsass"]
 	path = ext/libsass
 	url = https://github.com/sass/libsass.git
+[submodule "vendor/bundle/ruby/2.7.0/bundler/gems/bootswatch-caacd3191c72"]
+	path = vendor/bundle/ruby/2.7.0/bundler/gems/bootswatch-caacd3191c72
+	url = vendor/bundle/ruby/2.7.0/bundler/gems/bootswatch-caacd3191c72

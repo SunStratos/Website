@@ -2,3 +2,40 @@ en:
   recruitment:
     index:
       meta: 'SunStratos | Recruitment'
+      h1: We consider variety of background and experience to be essential for fostering innovation and advancement
+      text1: We invite individuals from every field to join us and offer their distinctive ideas in support of our shared objective of building a sustainable future.
+      text2: So if you're passionate about making a difference and have ideas to share, don't hesitate to reach out to us. We're eager to work with like-minded people and have a great influence as a team.
+      application:
+        h2: Application Form
+        text1: 2024 application will be open as soon as possible.
+        apply: Apply now
+      message:
+        h2: Message
+        h3: Rory message title
+        text1: rory message text
+      team:
+        h2: Our Team
+      value:
+        h2: SunStratos 4 Values
+        value1: Innovation
+        value2: Sustainability
+        value3: Teamwork
+        value4: Global
+      technical:
+        h2: Technical Leads Interview
+        role: Technical Head
+        head: Adi
+        quote: I am the boss
+        more: Learn more
+        role2: Aerostructure
+        name2: Adi
+        quote2: I am the boss
+        role3: Avionics
+        name3: Adi
+        quote3: I am the boss
+        role4: Web Development
+        name4: Adi
+        quote4: I am the boss
+        role5: Resources
+        name5: Adi
+        quote5: I am the boss

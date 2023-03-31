@@ -8,7 +8,6 @@
         margin: auto;
         max-width: 1960px;
         overflow: hidden;
-        padding-bottom: 100px;
         background: linear-gradient(180deg, #1B3446 0%, #346993 100%);
         .container-box {
             width: 100%;
@@ -39,16 +38,8 @@
                     padding-bottom: 7%;
                     padding-top: 5%;
                     .fold-flex {
-                        display: flex;
-                        flex-wrap: nowrap;
-                        gap: 15%;
-                        justify-content: center;
-                        flex-direction: row;
                         .fold-desc {
-                            width: 60%;
-                            height: 90%;
-                            padding-top: 8%;
-                            text-align: justify;
+                            text-align: center;
                             p {
                                 font-family: 'Nunito';
                                 font-style: normal;
@@ -56,17 +47,6 @@
                                 font-size: 20px;
                                 line-height: 27px;
                                 color: #FFFFFF;
-                            }
-                        }
-                        .fold-pic {
-                            width: 484px;
-                            height: 287px;
-                            img {
-                                width: 484px;
-                                height: 287px;
-                                object-fit: cover;
-                                filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
-                                border-radius: 25px;
                             }
                         }
                     }
@@ -156,6 +136,123 @@
                                 text-align: center;
                                 color: #444B53;
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// mobile starts here
+@media screen and (max-width: 960px) {
+    .container-home {
+        margin: auto;
+        min-width: 320px;
+        overflow: hidden;
+        background: linear-gradient(180deg, #1B3446 0%, #346993 100%);
+        .container-box {
+            width: 90%;
+            height: 100%;
+            margin: 0 auto;;
+            .idea-title {
+                text-align: center;
+                padding-top: 30px;
+                h1 {
+                    font-family: 'Source Serif Pro';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 2.2em;
+                    line-height: 63px;
+                    color: #FFFFFF;
+                }
+            }
+            .fold {
+                padding-bottom: 5%;
+                .fold-desc {
+                    text-align: center;
+                    p {
+                        font-family: 'Nunito';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 1.2em;
+                        line-height: 27px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .uav {
+                padding-bottom: 5%;
+                .uav-flex {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    align-items: center;
+                    .uav-pic {
+                        width: 178px;
+                        height: 127px;
+                        img {
+                            width: 178px;
+                            height: 127px;
+                            object-fit: cover;
+                            filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+                            border-radius: 10px;
+                        }
+                    }
+                    .uav-desc {
+                        padding-top: 2%;
+                        text-align: center;
+                        p {
+                            font-family: 'Nunito';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 1.2em;
+                            line-height: 27px;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+            .ssi {
+                background: #B8C9D2;
+                box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                margin-bottom: 15%;
+                padding-bottom: 3%;
+                .ssi-logo {
+                    padding-top: 3%;
+                    padding-bottom: 3%;
+                    text-align: center;
+                    img {
+                        width: 205px;
+                        height: 33px;
+                        object-fit: cover;
+                    }
+                }
+                .ssi-flex {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    .ssi-desc {
+                        width: 90%;
+                        p {
+                            font-family: 'Nunito';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 1.2em;
+                            line-height: 27px;
+                            color: #444B53;
+                        }
+                    }
+                    .ssi-link {
+                        p {
+                            font-family: 'Source Serif Pro';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 1em;
+                            line-height: 23px;
+                            text-align: center;
+                            color: #444B53;
                         }
                     }
                 }

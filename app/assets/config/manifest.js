@@ -14,4 +14,4 @@
 //= link achievement/index.css
 //= link recruitment/index.css
 //= link contacts/create.css
-//= link rexus/rexus.png
+ //= link achievement/rexus/rexus.png

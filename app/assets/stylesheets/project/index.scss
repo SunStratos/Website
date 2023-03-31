@@ -142,3 +142,134 @@
         }
     }
 }
+
+// mobile here
+@media screen and (max-width: 960px) {
+    .container-home {
+        background-color: #162634;
+        min-width: 320px;
+        overflow: hidden;
+        padding-bottom: 10%;
+        .project-title {
+            display: none;
+        }
+        .home-format {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 5%;
+            .discription {
+                .disc1-container {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: column-reverse;
+                    align-items: center;
+                    padding-bottom: 10%;
+                    .disc1-container-flex {
+                        .disc1-imgb {
+                            width: 206px;
+                            height: 100px;
+                            img {
+                                width: 206px;
+                                height: 100px;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                    .disc1-container-flex1 {
+                        .disc-title {
+                            text-align: center;
+                            .home-sub {
+                                color: #fff;
+                                font-weight: 400;
+                                text-align: center;
+                                font-family: serif;
+                                letter-spacing: 0.12em;
+                                font-size: 2.2em;
+                            }
+                        }
+                        .disc-text {
+                            text-align: justify;
+                            .disc {
+                                color: #fff;
+                                font-size: 1.2em;
+                                line-height: 1.5;
+                                font-family: serif;
+                            }
+                        }
+                    }
+                }
+                .disc2-container {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-bottom: 10%;
+                    .disc2-container-flex {
+                        .disc2-imgb {
+                            width: 206px;
+                            height: 100px;
+                            .disc1-img {
+                                width: 206px;
+                                height: 100px;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                    .disc2-container-flex1 {
+                        .disc-title {
+                            .home-sub {
+                                color: #fff;
+                                font-weight: 400;
+                                text-align: center;
+                                font-family: serif;
+                                letter-spacing: 0.12em;
+                                font-size: 2.2em;
+                            }
+                        }
+                        .disc-text {
+                            text-align: center;
+                            .disc {
+                                color: #fff;
+                                font-size: 1.2em;
+                                line-height: 1.5;
+                                font-family: serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .process-container {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 5%;
+            .process-title {
+                .project {
+                    color: #fff;
+                    font-weight: 400;
+                    text-align: center;
+                    font-family: serif;
+                    letter-spacing: 0.12em;
+                    font-size: 2.2em;
+                }
+            }
+            .process-imgb {
+                .process-img {
+                    height: auto;
+                    text-align: center;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    .proc-img {
+                        width: 119px;
+                        height: auto;
+                        object-fit: cover;
+                        padding: 3%;
+                    }
+                }
+            }
+        }
+    }
+}
