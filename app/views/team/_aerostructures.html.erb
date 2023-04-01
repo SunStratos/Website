@@ -1,80 +1,77 @@
 <%= stylesheet_link_tag "team/aerostructure", :media => "all" %>
 
 <div id='aerostructures' class="collapse">
-  <p><%= t 'team.aerostructure.description'%></p>
-  <h3><%= t 'team.aerostructure.team'%></h3>
-  <div>
-    <div class="collapse-boxes">
-      <ul class=subteams>
-        <div class="aerostructures-section">
-          <div>
-              <li>
-                <button class="link-button" data-toggle="collapse" data-target="#aerostructures-section" aria-expanded="true" aria-controls="outreach">
-                <h3>kjhbmbv jbiklbjhliujnkjnjknknk</h3>
-                </button>
-              </li>
+  <hr>
+  <div class='team-desc'>
+    <p><%= t 'team.aerostructure.description' %></p>
+  </div>
+  <div class='subteam-text'>
+    <p><%= t 'team.aerostructure.team' %></p>
+  </div>
+  <div class='subteam-section'>
+    <ul class='subteams'>
+      <li>
+        <div class='subteam-title'>
+          <h3><%= t 'team.subteams.aerostructures.title' %></h3>
+        </div>
+        <div class='desc-sections'>
+          <div class='subteam-desc'>
+            <p><%= t 'team.subteams.aerostructures.desc' %></p>
           </div>
-          <p id="aerostructures-section">The structural design team is responsible for developing the glider's framework, which includes the wings, fuselage, and other structural components. They use CAD software to model and simulate different design options and materials to ensure the glider is lightweight and strong enough to withstand the stresses of high-altitude flight. The team also works closely with the avionics team to integrate electrical circuits and other components into the structure of the glider.</p>
-          <div class="under-images">
-            <%= image_tag "teams/whitebox.png" %>
-            <%= image_tag "teams/aerostructures/gliderdesign.png" %>
-            <%= image_tag "teams/whitebox.png" %>
+          <div class='subteam-img'>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
           </div>
         </div>
-        <div class="aerodynamics-section">
-          <div>
-              <li>
-                <button class="link-button" data-toggle="collapse" data-target="#aerodynamics" aria-expanded="true" aria-controls="outreach">
-                <h3>jhvjbn m </h3>
-                </button>
-              </li>
+      </li>
+      <li>
+        <div class='subteam-title'>
+          <h3><%= t 'team.subteams.aerodynamics.title' %></h3>
+        </div>
+        <div class='desc-sections'>
+          <div class='subteam-desc'>
+            <p><%= t 'team.subteams.aerodynamics.desc' %></p>
           </div>
-          <div class="sub-section">
-            <p id="aerodynamics">hjbhvjh   nb n b</p>
-            <div class="under-images">
-              <%= image_tag "teams/whitebox.png" %>
-              <%= image_tag "teams/whitebox.png" %>
-              <%= image_tag "teams/whitebox.png" %>
-            </div>
+          <div class='subteam-img'>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
           </div>
         </div>
-        <div class="manufacturing-section">
-          <div>
-              <li>
-                <button class="link-button" data-toggle="collapse" data-target="#manufacturing" aria-expanded="true" aria-controls="outreach">
-                <h3>jkbujvihbkbhjb</h3>
-                </button>
-              </li>
+      </li>
+      <li>
+        <div class='subteam-title'>
+          <h3><%= t 'team.subteams.manufacturing.title' %></h3>
+        </div>
+        <div class='desc-sections'>
+          <div class='subteam-desc'>
+            <p><%= t 'team.subteams.manufacturing.desc' %></p>
+            <p><%= t 'team.subteams.manufacturing.resp'%></p>
           </div>
-          <div class="sub-section">
-            <p id="manufacturing">jhvvhb nb hjvhvjhvvhjhvhj</p>
-            <p>uygilohuihhgihiu</p>
-            <div class="under-images">
-              <%= image_tag "teams/aerostructures/3dprinter.png" %>
-              <%= image_tag "teams/whitebox.png" %>
-              <%= image_tag "teams/whitebox.png" %>
-            </div>
+          <div class='subteam-img'>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
           </div>
         </div>
-              <div class="recovery-section">
-          <div>
-              <li>
-                <button class="link-button" data-toggle="collapse" data-target="#recovery-section" aria-expanded="true" aria-controls="outreach">
-                <h3>jhgikgg</h3>
-                </button>
-              </li>
+      </li>
+      <li>
+        <div class='subteam-title'>
+          <h3><%= t 'team.subteams.recovery.title' %></h3>
+        </div>
+        <div class='desc-sections'>
+          <div class='subteam-desc'>
+            <p><%= t 'team.subteams.recovery.desc' %></p>
+            <p><%= t 'team.subteams.recovery.resp' %></p>
           </div>
-          <div class="sub-section">
-            <p id="recovery">jnjgv kiubh vhv j j  h jbihib h </p>
-            <p>jhbilh vliubiuhbuih jv ubujbu</p>
-            <div class="under-images">
-              <%= image_tag "teams/whitebox.png" %>
-              <%= image_tag "teams/whitebox.png" %>
-              <%= image_tag "teams/whitebox.png" %>
-            </div>
+          <div class='subteam-img'>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
           </div>
         </div>
-      </ul>
-    </div>
+      </li>
+    </ul>
   </div>
 </div>
