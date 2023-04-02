@@ -6,6 +6,8 @@
     display: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
 @media screen and (min-width: 961px) {
 
     .container-home {
@@ -22,7 +24,7 @@
                 color: #fff;
                 font-weight: 500;
                 text-align: center;
-                font-family: serif;
+                font-family: Roboto;
                 letter-spacing: 0.12em;
                 font-size: 50px;
             }
@@ -58,7 +60,7 @@
                                 color: #fff;
                                 font-weight: 400;
                                 text-align: center;
-                                font-family: serif;
+                                font-family: Roboto;
                                 letter-spacing: 0.12em;
                             }
                         }
@@ -99,7 +101,7 @@
                                 color: #fff;
                                 font-weight: 400;
                                 text-align: center;
-                                font-family: serif;
+                                font-family: Roboto;
                                 letter-spacing: 0.12em;
                             }
                         }
@@ -128,7 +130,7 @@
                     color: #fff;
                     font-weight: 400;
                     text-align: center;
-                    font-family: serif;
+                    font-family: Roboto;
                     letter-spacing: 0.12em;
                 }
             }
@@ -141,30 +143,31 @@
             }
         }
         .process-container {
-            padding-top: 50px;
-            .process-title {
-                margin: auto;
-                padding: 30px 20px;
-                .project {
-                    color: #fff;
-                    font-weight: 400;
-                    text-align: center;
-                    font-family: serif;
-                    letter-spacing: 0.12em;
-                }
-            }
-            .process-imgb {
-                padding: 20px;
-                .process-img {
-                    height: auto;
-                    text-align: center;
-                    .proc-img {
-                        width: 300px;
-                        height: auto;
-                        object-fit: cover;
-                    }
-                }
-            }
+            display: none;
+            // padding-top: 50px;
+            // .process-title {
+            //     margin: auto;
+            //     padding: 30px 20px;
+            //     .project {
+            //         color: #fff;
+            //         font-weight: 400;
+            //         text-align: center;
+            //         font-family: Roboto;
+            //         letter-spacing: 0.12em;
+            //     }
+            // }
+            // .process-imgb {
+            //     padding: 20px;
+            //     .process-img {
+            //         height: auto;
+            //         text-align: center;
+            //         .proc-img {
+            //             width: 300px;
+            //             height: auto;
+            //             object-fit: cover;
+            //         }
+            //     }
+            // }
         }
     }
 }
@@ -177,7 +180,17 @@
         overflow: hidden;
         padding-bottom: 10%;
         .project-title {
-            display: none;
+            margin: auto;
+            width: 100%;
+            padding-top: 8%;
+            .project-h1 {
+                color: #fff;
+                font-weight: 500;
+                text-align: center;
+                font-family: Roboto;
+                letter-spacing: 0.12em;
+                font-size: 50px;
+            }
         }
         .home-format {
             width: 90%;
@@ -208,7 +221,7 @@
                                 color: #fff;
                                 font-weight: 400;
                                 text-align: center;
-                                font-family: serif;
+                                font-family: Roboto;
                                 letter-spacing: 0.12em;
                                 font-size: 2.2em;
                             }
@@ -247,7 +260,7 @@
                                 color: #fff;
                                 font-weight: 400;
                                 text-align: center;
-                                font-family: serif;
+                                font-family: Roboto;
                                 letter-spacing: 0.12em;
                                 font-size: 2.2em;
                             }
@@ -273,7 +286,7 @@
                     color: #fff;
                     font-weight: 400;
                     text-align: center;
-                    font-family: serif;
+                    font-family: Roboto;
                     letter-spacing: 0.12em;
                     font-size: 2.2em;
                 }
@@ -285,36 +298,37 @@
             }
         }
         .process-container {
-            width: 90%;
-            margin: 0 auto;
-            padding-top: 5%;
-            .process-title {
-                .project {
-                    color: #fff;
-                    font-weight: 400;
-                    text-align: center;
-                    font-family: serif;
-                    letter-spacing: 0.12em;
-                    font-size: 2.2em;
-                }
-            }
-            .process-imgb {
-                .process-img {
-                    height: auto;
-                    text-align: center;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: row;
-                    justify-content: center;
-                    align-items: center;
-                    .proc-img {
-                        width: 119px;
-                        height: auto;
-                        object-fit: cover;
-                        padding: 3%;
-                    }
-                }
-            }
+            display: none;
+            // width: 90%;
+            // margin: 0 auto;
+            // padding-top: 5%;
+            // .process-title {
+            //     .project {
+            //         color: #fff;
+            //         font-weight: 400;
+            //         text-align: center;
+            //         font-family: serif;
+            //         letter-spacing: 0.12em;
+            //         font-size: 2.2em;
+            //     }
+            // }
+            // .process-imgb {
+            //     .process-img {
+            //         height: auto;
+            //         text-align: center;
+            //         display: flex;
+            //         flex-wrap: wrap;
+            //         flex-direction: row;
+            //         justify-content: center;
+            //         align-items: center;
+            //         .proc-img {
+            //             width: 119px;
+            //             height: auto;
+            //             object-fit: cover;
+            //             padding: 3%;
+            //         }
+            //     }
+            // }
         }
     }
 }
