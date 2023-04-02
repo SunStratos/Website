@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+.container {
+    display: none;
+}
+
 @media screen and (min-width: 961px) {
     .container-home {
         margin: auto;
@@ -68,8 +72,8 @@
                     p {
                         font-family: 'Playfair Display';
                         font-style: normal;
-                        font-weight: 400;
-                        font-size: 15px;
+                        font-weight: bolder;
+                        font-size: 20px;
                         line-height: 20px;
                         color: #000000;
                         margin: 5%;
@@ -108,7 +112,7 @@
                 .message-title {
                     margin-top: 5%;
                     text-align: center;
-                    padding-bottom: 6%;
+                    padding-bottom: 3%;
                     h2 {
                         font-family: 'Source Serif Pro';
                         font-style: normal;
@@ -120,11 +124,12 @@
                 }
                 .message-flex {
                     display: flex;
-                    flex-wrap: wrap;
+                    flex-wrap: nowrap;
                     flex-direction: row;
-                    justify-content: space-around;;
+                    align-items: center;
+                    gap: 2em;
                     .message-desc {
-                        text-align: center;
+                        text-align: justify;
                         h3 {
                             font-family: 'Source Serif Pro';
                             font-style: normal;
@@ -132,14 +137,16 @@
                             font-size: 38px;
                             line-height: 48px;
                             color: #FFFFFF;
+                            text-align: center;
                         }
                         p {
-                            font-family: 'Playfair Display';
+                            font-family: 'Inter';
                             font-style: normal;
                             font-weight: 400;
-                            font-size: 15px;
-                            line-height: 20px;
-                            color: #FFFFFF
+                            font-size: 20px;
+                            line-height: 24px;
+                            text-align: justify;
+                            color: #FFFFFF;
                         }
                     }
                     .message-pic {
@@ -318,8 +325,11 @@
                                     padding: 10px;
                                     border-radius: 5px;
                                     margin-top: 15%;
+                                    display: grid;
+                                    align-content: center;
                                     p {
                                         text-align: center;
+                                        margin-bottom: 0;
                                     }
                                 }
                                 .learn_more {
@@ -400,8 +410,11 @@
                                 padding: 10px;
                                 border-radius: 5px;
                                 margin-top: 15%;
+                                display: grid;
+                                align-content: center;
                                 p {
                                     text-align: center;
+                                    margin-bottom: 0;
                                 }
                             }
                             .learn_more {
@@ -474,6 +487,7 @@
                 box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.65);
                 border-radius: 10px;
                 padding-bottom: 3%;
+                margin-top: 5%;
                 .application-title {
                     padding-top: 2%;
                     text-align: center;
@@ -494,14 +508,13 @@
                     }
                 }
                 .application-text {
-                    padding-top: 5%;
                     width: 90%;
                     margin: 0 auto;
                     text-align: center;
                     p {
                         font-family: 'Playfair Display';
                         font-style: normal;
-                        font-weight: 400;
+                        font-weight: bolder;
                         font-size: 1.2em;
                         line-height: 20px;
                         color: #000000;
@@ -539,7 +552,7 @@
                 padding-top: 5%;
                 .message-title {
                     text-align: center;
-                    padding-bottom: 6%;
+                    padding-bottom: 2%;
                     h2 {
                         font-family: 'Source Serif Pro';
                         font-style: normal;
@@ -575,14 +588,16 @@
                             font-size: 2em;
                             line-height: 48px;
                             color: #FFFFFF;
+                            text-align: center;
                         }
                         p {
-                            font-family: 'Playfair Display';
+                            font-family: 'Inter';
                             font-style: normal;
                             font-weight: 400;
                             font-size: 1.2em;
-                            line-height: 20px;
-                            color: #FFFFFF
+                            line-height: 24px;
+                            text-align: justify;
+                            color: #FFFFFF;
                         }
                     }
                 }
@@ -692,7 +707,7 @@
                 }
             }
             .technical-box {
-                margin-top: 10%;
+                margin-top: 8%;
                 .technical-title {
                     text-align: center;
                     padding-bottom: 3%;
@@ -752,8 +767,11 @@
                                     padding: 10px;
                                     border-radius: 5px;
                                     margin-top: 15%;
+                                    display: grid;
+                                    align-content: center;
                                     p {
                                         text-align: center;
+                                        margin-bottom: 0;
                                     }
                                 }
                                 .learn_more {
@@ -834,8 +852,11 @@
                                 padding: 10px;
                                 border-radius: 5px;
                                 margin-top: 15%;
+                                display: grid;
+                                align-content: center;
                                 p {
                                     text-align: center;
+                                    margin-bottom: 0;
                                 }
                             }
                             .learn_more {
