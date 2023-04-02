@@ -130,7 +130,7 @@
                             font-family: 'Playfair Display';
                             font-style: normal;
                             font-weight: 600;
-                            font-size: 2em;
+                            font-size: 1.5em;
                             line-height: 33px;
                             color: #F1FAFF;
                         }
@@ -155,9 +155,11 @@
                         }
                         .subteam-img {
                             display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            gap: 5%;
                             padding-top: 3%;
-                            flex-wrap: wrap;
-                            justify-content: center;
+                            align-items: center;
                             img {
                                 width: 250px;
                                 height: 115px;
