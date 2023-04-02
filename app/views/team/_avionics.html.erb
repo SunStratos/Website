@@ -1,30 +1,37 @@
 <%= stylesheet_link_tag "team/avionics", :media => "all" %>
 
 <div id='avionics' class="collapse">
-  <p>The avionics team is responsible for designing, building, and integrating all of the electronic systems used in the glider.</p>
-  <div class="section">
-    <div class="text-side">
-      <p>One of the most important tasks of the avionics team is to ensure that the electronic systems used in the glider are reliable and capable of operating in the harsh environment of high-altitude flight. They must consider factors such as temperature, radiation, and vibration, and design systems that can withstand these conditions while still collecting accurate data.</p>
+  <hr>
+  <div class='team-desc2'>
+    <p><%= t 'team.avionics.desc' %></p>
+  </div>
+  <div class='desc-sections2'>
+    <div class='subteam-desc'>
+      <p><%= t 'team.avionics.section.desc' %></p>
     </div>
-    <div class="image-side">
+    <div class='subteam-img2'>
       <%= image_tag "teams/avionics/avionicsmeeting.png" %>
     </div>
   </div>
-  <div class="section">
-    <div class="image-side">
-      <%= image_tag "teams/whitebox.png" %>
+  <div class='desc-sections2'>
+    <div class='subteam-img2'>
+      <%= image_tag "teams/avionics/avionicsmeeting.png" %>
     </div>
-    <div class="text-side">
-      <p>Throughout the project, the avionics team keeps detailed records and performs rigorous testing to ensure that all electronic systems are functioning properly.  These systems include sensors for collecting data on the atmosphere and surface of the Earth, as well as communication and control systems to allow the glider to be controlled remotely and to transmit data back to the ground. They work closely with the other teams to ensure that the glider is designed and built in a way that allows for optimal performance and data collection.</p>
+    <div class='subteam-desc2'>
+      <p><%= t 'team.avionics.section.desc2' %></p>
     </div>
   </div>
-  <h3>Meet our Avionics team lead:</h3>
-  <div class="section">
-    <div class= "text-side">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div class='intro-lead2'>
+    <div class='intro-text2'>
+      <h3><%= t 'team.avionics.intro.title' %></h3>
     </div>
-    <div class="text-side">
-      <%= image_tag "leads/jack.JPG" %>
+    <div class='desc-sections2'>
+      <div class='subteam-desc2'>
+        <p><%= t 'team.avionics.intro.text' %></p>
+      </div>
+      <div class='subteam-img2'>
+        <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+      </div>
     </div>
   </div>
 </div>

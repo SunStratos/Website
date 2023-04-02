@@ -1,15 +1,63 @@
-.collapse {
-    padding-top: 1rem;
-}
+@media screen and (min-width: 961px) {
+    .collapse,
+    .avionics {
+        hr {
+            color: #F1FAFF;
+        }
+        .team-desc2 {
+            width: 70%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            p {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                color: #FFFFFF;
+            }
+        }
+        .desc-sections2 {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            .subteam-desc2 {
+                text-align: justify;
+                p {
+                    font-family: 'Nunito';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 27px;
+                    color: #FFFFFF;
+                }
+            }
+            .subteam-img2 {
+                img {
+                    width: 248px;
+                    height: 165px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .intro-lead2 {
+            .desc-sections2 {
+                .subteam-desc2 {
+                    p {
 
-.section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    img {
-        width: 50%;
+                    }
+                }
+                .subteam-img2 {
+                    img {
+                        width: 248px;
+                        height: 165px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
     }
-
 }
