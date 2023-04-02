@@ -1,6 +1,7 @@
 // Place all the styles related to the idea controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
 @media screen and (min-width: 961px) {
 
@@ -16,9 +17,9 @@
                 width: 100%;
                 height: auto;
                 text-align: center;
-                padding-top: 30px;
+                padding-top: 5%;
                 h1 {
-                    font-family: 'Source Serif Pro';
+                    font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 700;
                     font-size: 50px;
@@ -147,20 +148,19 @@
 
 // mobile starts here
 @media screen and (max-width: 960px) {
+
     .container-home {
-        margin: auto;
         min-width: 320px;
         overflow: hidden;
         background: linear-gradient(180deg, #1B3446 0%, #346993 100%);
         .container-box {
             width: 90%;
-            height: 100%;
-            margin: 0 auto;;
+            margin: 0 auto;
             .idea-title {
                 text-align: center;
                 padding-top: 30px;
                 h1 {
-                    font-family: 'Source Serif Pro';
+                    font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 700;
                     font-size: 2.2em;
@@ -171,7 +171,7 @@
             .fold {
                 padding-bottom: 5%;
                 .fold-desc {
-                    text-align: center;
+                    text-align: justify;
                     p {
                         font-family: 'Nunito';
                         font-style: normal;
@@ -202,7 +202,7 @@
                     }
                     .uav-desc {
                         padding-top: 2%;
-                        text-align: center;
+                        text-align: justify;
                         p {
                             font-family: 'Nunito';
                             font-style: normal;
@@ -234,6 +234,7 @@
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
+                    text-align: justify;
                     .ssi-desc {
                         width: 90%;
                         p {
