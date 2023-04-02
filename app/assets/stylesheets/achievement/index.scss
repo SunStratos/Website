@@ -1,6 +1,11 @@
 // Place all the styles related to the achievement controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.container {
+    display: none;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
 @media screen and (min-width: 961px) {
