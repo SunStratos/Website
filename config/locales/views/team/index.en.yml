@@ -1,4 +1,26 @@
 en:
   team:
     index:
-      meta: 'SunStratos | Our Team'
+      meta: "SunStratos | Our Team"
+      title: Our Team
+      leads:
+        project:
+          title: "Rory Gavin - Project Lead"
+          text:
+                "I lead the project and ensure we’re on track to
+                accomplishing our goals.  Furthermore, I liaise with
+                the University of Sheffield to keep them updated on
+                our progress and to acquire support and funds."
+        technical:
+          title: "Aditya Parnandi - Technical Lead"
+          text: "My role is to integrate the requirements
+                  and designs of the avionics and aerostructures 
+                  teams to meet the mission objectives."
+      teams:
+        aerostructures: "Aerostructures"
+        avionics: "Avionics"
+        resources: "Resources"
+        web: "Web Development"
+      contact:
+        text: "If you want to be a collaborator or a part of the team, 
+                feel free to send a message from our contact or recruitment form."

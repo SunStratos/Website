@@ -2,3 +2,17 @@ en:
   team:
     resources:
       meta: 'SunStratos | Resources'
+      description: 'The resource team for the SunStratos project is responsible for managing a wide range of activities that support the overall success of the project. This team is made up of individuals who specialize in marketing, finance, outreach, social media, and event organization.'
+      subteams:
+        outreach:
+          title: 'Outreach'
+          desc: 'The outreach team is responsible for building relationships with key stakeholders and engaging with the public to generate support for the project. This includes reaching out to schools, universities, and other organizations to raise awareness of the project and its goals.'
+        media:
+          title: 'Social Media'
+          desc: "The social media team is responsible for managing the project's social media accounts, creating engaging content, and responding to comments and questions from followers. They work closely with the web development team to ensure that the project's social media presence is aligned with the website and other promotional materials."
+        event:
+          title: 'Event Organisation'
+          desc: 'The event organization team is responsible for planning and executing events related to the SunStratos project, such as launch events and fundraising events. They work closely with the other teams to ensure that these events are well-organized and successful.'
+      intro:
+        title: "Meet our Resources team lead: "
+        text: 'Hello, I’m Aryan.  I am the Resources Lead at SunStratos, and my job is to manage our online social media presence online, lead outreach for funding and sponsorships, and lead the planning of events and socials.'

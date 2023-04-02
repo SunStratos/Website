@@ -1,0 +1,175 @@
+@media screen and (min-width: 961px) {
+    .collapse,
+    .aerostructures {
+        hr {
+            color: #F1FAFF;
+        }
+        .team-desc {
+            width: 70%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            p {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                color: #FFFFFF;
+            }
+        }
+        .subteam-text {
+            width: 100%;
+            p {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 34px;
+                color: #FFFFFF;
+            }
+        }
+        .subteam-section {
+            width: 100%;
+            margin: 0 auto;
+            .subteams {
+                color: #F1FAFF;
+                li {
+                    .subteam-title {
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                        h3 {
+                            font-family: 'Playfair Display';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 25px;
+                            line-height: 33px;
+                            color: #F1FAFF;
+                        }
+                    }
+                    .desc-sections {
+                        width: 90%;
+                        margin: 0 auto;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        flex-direction: column;
+                        padding-bottom: 4%;
+                        .subteam-desc {
+                            text-align: justify;
+                            p {
+                                font-family: 'Nunito';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 20px;
+                                line-height: 27px;
+                                color: #FFFFFF;
+                            }
+                        }
+                        .subteam-img {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            justify-content: center;
+                            gap: 5%;
+                            padding-top: 3%;
+                            img {
+                                width: 248px;
+                                height: 165px;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 960px) {
+    .collapse,
+    .aerostructures {
+        hr {
+            color: #F1FAFF;
+        }
+        .team-desc {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            p {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.2em;
+                line-height: 27px;
+                color: #FFFFFF;
+            }
+        }
+        .subteam-text {
+            width: 100%;
+            p {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.2em;
+                line-height: 34px;
+                color: #FFFFFF;
+            }
+        }
+        .subteam-section {
+            width: 100%;
+            margin: 0 auto;
+            .subteams {
+                color: #F1FAFF;
+                li {
+                    .subteam-title {
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                        h3 {
+                            font-family: 'Playfair Display';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 1.5em;
+                            line-height: 33px;
+                            color: #F1FAFF;
+                        }
+                    }
+                    .desc-sections {
+                        width: 90%;
+                        margin: 0 auto;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        flex-direction: column;
+                        padding-bottom: 4%;
+                        .subteam-desc {
+                            text-align: justify;
+                            p {
+                                font-family: 'Nunito';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 1.2em;
+                                line-height: 27px;
+                                color: #FFFFFF;
+                            }
+                        }
+                        .subteam-img {
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            gap: 5%;
+                            padding-top: 3%;
+                            align-items: center;
+                            img {
+                                width: 250px;
+                                height: 115px;
+                                object-fit: cover;
+                                margin-bottom: 3%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

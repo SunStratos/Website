@@ -1,0 +1,22 @@
+.collapse {
+    padding-top: 1rem;
+}
+
+.lead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10%;
+
+    .image-side {
+        img {
+            width: 50%;
+        }
+    }
+
+    .text-side {
+        padding: 0 5%;
+    }
+
+}
