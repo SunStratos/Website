@@ -1,31 +1,54 @@
 <%= stylesheet_link_tag "team/webdev", :media => "all" %>
 
 <div id='web' class="collapse">
-  <p>The web development team for the SunStratos project is responsible for developing and maintaining the project's website.</p>
-  <div class="container">
-    <div class="text-side">
-      <p>The web development team is responsible for designing the website, developing its functionality, and ensuring that it is easy to navigate and use. They must work closely with the other teams to ensure that the website accurately reflects the progress and goals of the project.</p>
-      <p>Throughout the project, the web development team is responsible for tracking website traffic and engagement, analyzing data, and making changes as needed to optimize the website's performance.</p>
-    </div>
-    <div class="image-side">
-      <%= image_tag "teams/webdev/webdevpic.png" %>
-    </div>
+  <hr>
+  <div class='team-desc'>
+    <p><%= t 'team.webdev.description' %></p>
   </div>
-  <div class="container">
-    <div class="image-side">
-      <%= image_tag "teams/webdev/omardesign.png" %>
-    </div>
-    <div class="text-side">
-      <p>The web design team at SunStratos is responsible for creating the layout of the website using Figma and CSS. They use their expertise in web design and user experience to create visually appealing, user-friendly, and engaging website designs. The team collaborates with other departments to align the website's design with the company's branding and messaging.</p>
-    </div>
+  <div class='subteam-text'>
+    <p><%= t 'team.aerostructure.team' %></p>
   </div>
-  <h3>Meet the web development team lead:</h3>
-  <div class="lead">
-    <div class="image-side">
-      <%= image_tag "leads/alessandro.JPG" %>
-    </div>
-    <div class="text-side">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
+  <div class='subteam-section'>
+    <ul class='subteams'>
+      <li>
+        <div class='subteam-title'>
+          <h3><%= t 'team.webdev.subteams.dev.title' %></h3>
+        </div>
+        <div class='desc-sections2'>
+          <div class='subteam-desc2'>
+            <p><%= t 'team.webdev.subteams.dev.desc' %></p>
+          </div>
+          <div class='subteam-img2'>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class='subteam-title'>
+          <h3><%= t 'team.webdev.subteams.design.title' %></h3>
+        </div>
+        <div class='desc-sections2'>
+          <div class='subteam-desc2'>
+            <p><%= t 'team.webdev.subteams.design.desc' %></p>
+          </div>
+          <div class='subteam-img2'>
+            <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class='intro-lead2'>
+      <div class='intro-text2'>
+        <h3><%= t 'team.avionics.intro.title' %></h3>
+      </div>
+      <div class='desc-sections2'>
+        <div class='subteam-desc2'>
+          <p><%= t 'team.webdev.intro.text' %></p>
+        </div>
+        <div class='subteam-img2'>
+          <%= image_tag "teams/avionics/avionicsmeeting.png" %>
+        </div>
+      </div>
     </div>
   </div>
 </div>
