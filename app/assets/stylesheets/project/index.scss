@@ -28,6 +28,20 @@
                 font-size: 50px;
                 line-height: 63px;
                 color: #F1FAFF;
+                animation: title-appear 2.5s ease-in-out;
+                animation-fill-mode: forwards;
+                opacity: 0;
+            }
+            @keyframes title-appear {
+                0% {
+                    opacity: 0;
+                    transform: translateY(0);
+                }
+            
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
             }
         }
         .home-format {
@@ -35,6 +49,21 @@
             margin: auto;
             padding-top: 20px;
             padding-bottom: 20px;
+            animation: home-appear 2.5s ease-in-out;
+            animation-fill-mode: forwards;
+            opacity: 0;
+            animation-delay: 1.5s; /* add this line */
+            @keyframes home-appear {
+                0% {
+                    opacity: 0;
+                    transform: translateY(180px);
+                }
+            
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
             .discription {
                 margin: auto;
                 .disc1-container {
@@ -123,6 +152,21 @@
         }
         .insta-container {
             width: 100%;
+            animation: insta-appear 2.5s ease-in-out;
+            animation-fill-mode: forwards;
+            opacity: 0;
+            animation-delay: 1.5s; /* add this line */
+            @keyframes insta-appear {
+                0% {
+                    opacity: 0;
+                    transform: translateY(180px);
+                }
+            
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
             .disc-title {
                 margin: auto;
                 padding: 20px;
@@ -192,12 +236,41 @@
                 font-size: 2.2em;
                 line-height: 63px;
                 color: #F1FAFF;
+                animation: title-appear 3.5s ease-in-out;
+                animation-fill-mode: forwards;
+                opacity: 0;
+            }
+            @keyframes title-appear {
+                0% {
+                    opacity: 0;
+                    transform: translateY(0);
+                }
+            
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
             }
         }
         .home-format {
             width: 90%;
             margin: 0 auto;
             padding-top: 5%;
+            animation: home-appear 2.5s ease-in-out;
+            animation-fill-mode: forwards;
+            opacity: 0;
+            animation-delay: 1.5s; /* add this line */
+            @keyframes home-appear {
+                0% {
+                    opacity: 0;
+                    transform: translateY(180px);
+                }
+            
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
             .discription {
                 .disc1-container {
                     display: flex;
@@ -282,6 +355,21 @@
         }
         .insta-container {
             width: 100%;
+            animation: insta-appear 2.5s ease-in-out;
+            animation-fill-mode: forwards;
+            opacity: 0;
+            animation-delay: 1.5s; /* add this line */
+            @keyframes insta-appear {
+                0% {
+                    opacity: 0;
+                    transform: translateY(180px);
+                }
+            
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
             .disc-title {
                 padding-bottom: 7%;
                 .home-sub {
