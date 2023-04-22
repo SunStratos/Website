@@ -48,10 +48,10 @@
         <hr>
       </div>
       <ul class='team-links'>
-        <li><%= link_to t('navbar.title.teams.team1'), team_aerostructures_path %></li>
-        <li><%= link_to t('navbar.title.teams.team2'), team_avionics_path %></li>
-        <li><%= link_to t('navbar.title.teams.team3'), team_resources_path %></li>
-        <li><%= link_to t('navbar.title.teams.team4'), team_webdevelopers_path %></li>
+        <li><%= link_to t('navbar.title.teams.team1'), team_view_path(id: 'aerostructures') %></li>
+        <li><%= link_to t('navbar.title.teams.team2'), team_view_path(id: 'avionics') %></li>
+        <li><%= link_to t('navbar.title.teams.team3'), team_view_path(id: 'resources') %></li>
+        <li><%= link_to t('navbar.title.teams.team4'), team_view_path(id: 'webdevelopers') %></li>
       </ul>
     </div>
     <div class='values-box'>
