@@ -19,6 +19,9 @@
     position: sticky !important;
     top: 0px;
     z-index: 1;
+    .navbar-toggler {
+        border: 0 !important;
+    }
     .dropdown-menu{
         margin: 0 auto;
         background-color: #444B53 !important;
