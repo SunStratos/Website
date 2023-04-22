@@ -10,8 +10,5 @@ Rails.application.routes.draw do
   get '/project' =>'project#index', :as => :project
 
   get '/team' => 'team#index'
-  get '/team/aerostructures' => 'team#aerostructures', :as => :team_aerostructures
-  get '/team/avionics' => 'team#avionics', :as => :team_avionics
-  get '/team/resources' => 'team#resources', :as => :team_resources
-  get '/team/webdevelopers' => 'team#webdevelopers', :as => :team_webdevelopers
+  get '/team/:id', to: 'team#index', as: :team_view, defaults: { id: 'aerostructures' }
 end

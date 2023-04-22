@@ -14,10 +14,10 @@
         <li class="nav-item dropdown">
           <label class="nav-link dropdown-toggle" data-bs-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= link_to t('navbar.title.teams.team'), team_path %></label>
             <div class="dropdown-menu">
-              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team1'), team_aerostructures_path %></label>
-              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team2'), team_avionics_path %></label>
-              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team3'), team_resources_path %></label>
-              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team4'), team_webdevelopers_path %></label>
+              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team1'), team_view_path(id: 'aerostructures') %></label>
+              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team2'), team_view_path(id: 'avionics') %></label>
+              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team3'), team_view_path(id: 'resources') %></label>
+              <label class="dropdown-item"><%= link_to t('navbar.title.teams.team4'), team_view_path(id: 'webdevelopers') %></label>
             </div>
         </li>
         <li class="nav-item">
