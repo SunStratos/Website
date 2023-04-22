@@ -41,7 +41,7 @@
       <div class="aerostructures team">
         <div>
             <button class="link-button" data-toggle="collapse" data-target="#aerostructures" aria-expanded="true" aria-controls="aerostructures">
-              <p><%= t 'team.index.teams.aerostructures'%></p>
+              <p><%= link_to t('team.index.teams.aerostructures'), team_view_path(id: 'aerostructures') %></p>
             </button>
         </div>
         <%= render 'team/aerostructures' %>
@@ -49,7 +49,7 @@
       <div class="avionics team">
         <div>
           <button class="link-button" data-toggle="collapse" data-target="#avionics" aria-expanded="true" aria-controls="avionics">
-            <p><%= t 'team.index.teams.avionics'%></p>
+            <p><%= link_to t('team.index.teams.avionics'), team_view_path(id: 'avionics') %></p>
           </button>
         </div>
         <%= render 'team/avionics' %>
@@ -57,15 +57,15 @@
       <div class="resources team">
         <div>
           <button class="link-button" data-toggle="collapse" data-target="#resources" aria-expanded="true" aria-controls="resources">
-            <p><%= t 'team.index.teams.resources'%></p>
+            <p><%= link_to t('team.index.teams.resources'), team_view_path(id: 'resources') %></p>
           </button>
         </div>
         <%= render 'team/resources' %>
       </div>
-      <div class="web team">
+      <div class="webdevelopers team">
         <div>
-          <button class="link-button" data-toggle="collapse" data-target="#web" aria-expanded="true" aria-controls="web">
-            <p><%= t 'team.index.teams.web'%></p>
+          <button class="link-button" data-toggle="collapse" data-target="#webdevelopers" aria-expanded="true" aria-controls="webdevelopers">
+            <p><%= link_to t('team.index.teams.web'), team_view_path(id: 'webdevelopers') %></p>
           </button>
         </div>
         <%= render 'team/webdevelopers' %>

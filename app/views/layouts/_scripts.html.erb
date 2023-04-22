@@ -3,6 +3,63 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script>
 $(document).on('click',function(){
-$('.collapse').collapse('hide');
-})
+  $('.collapse').collapse('hide');
+});
+
+$(document).ready(function() {
+  // get the current path
+  var path = window.location.pathname;
+
+  // check if the path includes 'aerostructures'
+  if (path.includes('/team/aerostructures')) {
+    // if it does, show the aerostructures collapse section
+    $('#aerostructures').collapse('show');
+
+    // scroll to the top of the aerostructures collapse section
+    $('html, body').scrollTop($('#aerostructures').offset().top);
+  }
+
+  // check if the path includes 'avionics'
+  if (path.includes('/team/avionics')) {
+    // if it does, show the avionics collapse section
+    $('#avionics').collapse('show');
+
+    // scroll to the top of the avionics collapse section
+    $('html, body').scrollTop($('#avionics').offset().top);
+  }
+
+  // check if the path includes 'resources'
+  if (path.includes('/team/resources')) {
+    // if it does, show the resources collapse section
+    $('#resources').collapse('show');
+
+    // scroll to the top of the resources collapse section
+    $('html, body').scrollTop($('#resources').offset().top);
+  }
+
+  // check if the path includes 'webdevelopers'
+  if (path.includes('/team/webdevelopers')) {
+    // if it does, show the webdevelopers collapse section
+    $('#webdevelopers').collapse('show');
+
+    // scroll to the top of the webdevelopers collapse section
+    $('html, body').scrollTop($('#webdevelopers').offset().top);
+  }
+
+  // add a click event listener to all team links
+  $('.link-button').click(function(event) {
+    // prevent the default behavior of the link
+    event.preventDefault();
+
+    // get the target of the link
+    var target = $(this).attr('data-target');
+
+    // show the target collapse section
+    $(target).collapse('show');
+
+    // scroll to the top of the target collapse section
+    $('html, body').scrollTop($(target).offset().top);
+  });
+});
+
 </script> 
