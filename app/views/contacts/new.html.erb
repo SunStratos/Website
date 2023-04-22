@@ -10,6 +10,11 @@
   <div class="form-format">
     <div class="container-box">
       <h1 class="form"><%= t 'contacts.create.form' %></h1>
+      <p><%= t 'contacts.index.warning' %></p>
+      <p><%= t 'contacts.index.student' %></p>
+      <%= mail_to "sunstratos@sheffield.ac.uk" do %>
+        <span>sunstratos@sheffield.ac.uk</span>
+      <% end %>
       <%= form_for @contact do |f| %>
         <div class="col-md-6-form">
           <div class="form-box">
