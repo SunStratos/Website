@@ -26,6 +26,20 @@
                     color: #FFF;
                     letter-spacing: .2rem;
                 }
+                p {
+                    text-align: center;
+                    padding: 0;
+                    font-weight: 100;
+                    margin: 0;
+                    color: #FFF;
+                }
+                a {
+                    text-align: center;
+                    span {
+                        color: #FFF;
+                        font-weight: 300;
+                    }
+                }
             }
             form {
                 margin: auto;
@@ -56,13 +70,11 @@
                         padding: 10px;
                     }
                     textarea {
-                        border-radius: 0.7em;
                         padding-left: 10px;
                         padding-right: 10px;
                         padding-top: 5px;
                     }
                     input {
-                        border-radius: 0.5em;
                         padding-left: 10px;
                     }
                     label {

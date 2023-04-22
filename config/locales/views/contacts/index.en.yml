@@ -3,6 +3,8 @@ en:
     index:
       h1: 'Contact Us'
       h2: 'Please use form below'
+      warning: 'This contact form is for sponsors only.'
+      student: 'If you are a student, please use this email.'
     create:
       h1: 'Thank you!'
       form: 'Contact Form'
