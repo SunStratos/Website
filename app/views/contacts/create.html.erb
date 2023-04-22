@@ -7,8 +7,15 @@
 <%= stylesheet_link_tag "contacts/create", :media => "all" %>
 
 <div class="container">
+  <br>
+    <% flash.each do |key, message| %>
+        <p class="alert alert-<%= key %>"><%= message %></p>
+    <% end %>
   <div class="thanks">
     <h3 class="form-thankyou"><%= t 'contacts.create.thankyou' %></h3>
     <h3 class="form-thankyou"><%= t 'contacts.create.thankyou2' %></h3>
+  </div>
+  <div class='mail_pic'>
+    <%= image_tag('contact/message sent.webp', alt: 'message_sent') %>
   </div>
 </div>
