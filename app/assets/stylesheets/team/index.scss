@@ -69,6 +69,20 @@
                     font-size: 50px;
                     line-height: 63px;
                     color: #F1FAFF;
+                    animation: team-appear 2.5s ease-in-out;
+                    animation-fill-mode: forwards;
+                    opacity: 0;
+                }
+                @keyframes team-appear {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(0);
+                    }
+                
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
                 }
             }
             .lead {
@@ -232,6 +246,20 @@
                     font-size: 2.2em;
                     line-height: 63px;
                     color: #F1FAFF;
+                    animation: team-appear 2.5s ease-in-out;
+                    animation-fill-mode: forwards;
+                    opacity: 0;
+                }
+                @keyframes team-appear {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(0);
+                    }
+                
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
                 }
             }
             .lead {

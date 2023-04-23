@@ -49,10 +49,10 @@
             margin: auto;
             padding-top: 20px;
             padding-bottom: 20px;
-            animation: home-appear 2.5s ease-in-out;
+            animation: home-appear 1.3s ease-in-out;
             animation-fill-mode: forwards;
             opacity: 0;
-            animation-delay: 1.5s; /* add this line */
+            animation-delay: 1.3s; /* add this line */
             @keyframes home-appear {
                 0% {
                     opacity: 0;
@@ -256,10 +256,10 @@
             width: 90%;
             margin: 0 auto;
             padding-top: 5%;
-            animation: home-appear 2.5s ease-in-out;
+            animation: home-appear 1.3s ease-in-out;
             animation-fill-mode: forwards;
             opacity: 0;
-            animation-delay: 1.5s; /* add this line */
+            animation-delay: 1.3s; /* add this line */
             @keyframes home-appear {
                 0% {
                     opacity: 0;

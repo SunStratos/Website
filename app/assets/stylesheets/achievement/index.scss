@@ -43,6 +43,20 @@
                     font-size: 50px;
                     line-height: 63px;
                     color: #A8E1FF;
+                    animation: achievement-appear 2.5s ease-in-out;
+                    animation-fill-mode: forwards;
+                    opacity: 0;
+                }
+                @keyframes achievement-appear {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(0);
+                    }
+                
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
                 }
             }
         }
@@ -347,6 +361,20 @@
                     font-size: 2.2em;
                     line-height: 63px;
                     color: #A8E1FF;
+                    animation: achievement-appear 2.5s ease-in-out;
+                    animation-fill-mode: forwards;
+                    opacity: 0;
+                }
+                @keyframes achievement-appear {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(0);
+                    }
+                
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
                 }
             }
         }
