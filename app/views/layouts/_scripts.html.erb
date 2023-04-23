@@ -6,29 +6,6 @@ $(document).on('click',function(){
   $('.collapse').collapse('hide');
 });
 
-const sections = document.querySelectorAll('.section');
-
-const options = {
-  root: null,
-  rootMargin: '0px',
-  threshold: 0.3
-};
-
-const observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('active');
-      observer.unobserve(entry.target);
-    }
-  });
-}, options);
-
-sections.forEach(section => {
-  observer.observe(section);
-});
-
-
-
 $(document).ready(function() {
   // navbar hiding
   if (window.innerWidth > 768) {
@@ -45,38 +22,24 @@ $(document).ready(function() {
     }
   }
 
-    // Get the element that you want to observe
-  const contactSection = document.querySelector('.contact-desc');
+  const sections = document.querySelectorAll('.section');
+  const threshold = 0.8;
 
-  // Create a new IntersectionObserver object
-  const observer = new IntersectionObserver((entries) => {
-    // Loop through the entries that intersect with the viewport
-    entries.forEach((entry) => {
-      // If the observed element is intersecting with the viewport
-      if (entry.isIntersecting) {
-        // Add a CSS class to show the element
-        contactSection.classList.add('show');
+  function handleIntersection() {
+    sections.forEach(section => {
+      const sectionRect = section.getBoundingClientRect();
+      const isVisible = (sectionRect.top < window.innerHeight * threshold) && (sectionRect.bottom > 0);
+      if (isVisible) {
+        section.classList.add('active');
       }
     });
-  }, {
-    // Set the root element to be the viewport
-    root: null,
-    // Set the threshold to 0 (meaning the observed element is considered intersecting when it enters the viewport)
-    threshold: 0.3,
-  });
-  
-  $(window).on('scroll', function() {
-  var element = $('.contact-desc');
-  var position = element.offset().top;
-  var scrollTop = $(window).scrollTop();
-  var windowHeight = $(window).height();
-  if (scrollTop + windowHeight > position) {
-    element.fadeIn(2000);
   }
-});
 
-  // Start observing the element
-  observer.observe(contactSection);
+  window.addEventListener('scroll', handleIntersection);
+  window.addEventListener('resize', handleIntersection);
+
+  // Call handleIntersection once on page load to initially check which sections are visible
+  handleIntersection();
 
   // get the current path
   var path = window.location.pathname;

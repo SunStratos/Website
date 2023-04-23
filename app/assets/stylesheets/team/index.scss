@@ -6,47 +6,38 @@
 
 .lead {
     animation: lead-appear 1.3s ease-in-out forwards;
-  }
-  
-  .lead2 {
+}
+
+.lead2 {
     opacity: 0;
     transform: translateY(180px);
     animation: lead2-appear 1.3s ease-in-out forwards;
     animation-delay: 1.3s;
-  }
-  
-  @keyframes lead-appear {
-    0% {
-      opacity: 0;
-      transform: translateY(180px);
-    }
-    
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes lead2-appear {
-    0% {
-      opacity: 0;
-      transform: translateY(180px);
-    }
-    
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+}
 
-  .contact-desc {
+@keyframes lead-appear {
+    0% {
     opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
-  
-  .contact-desc.show {
+    transform: translateY(180px);
+    }
+    
+    100% {
     opacity: 1;
-  }
+    transform: translateY(0);
+    }
+}
+
+@keyframes lead2-appear {
+    0% {
+    opacity: 0;
+    transform: translateY(180px);
+    }
+    
+    100% {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
 
 @media screen and (min-width: 961px) {
     .team-page {
