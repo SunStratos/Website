@@ -507,6 +507,20 @@
                     line-height: 50px;
                     text-align: center;
                     color: #FFFFFF;
+                    animation: h1-appear 2.5s ease-in-out;
+                    animation-fill-mode: forwards;
+                    opacity: 0;
+                }
+                @keyframes h1-appear {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(0);
+                    }
+                
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
                 }
             }
             .sub-box {
@@ -519,6 +533,20 @@
                     line-height: 24px;
                     text-align: center;
                     color: #FFFFFF;
+                    animation: sub-appear 2.5s ease-in-out;
+                    animation-fill-mode: forwards;
+                    opacity: 0;
+                }
+                @keyframes sub-appear {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(0);
+                    }
+                
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
                 }
             }
             .application-box {
