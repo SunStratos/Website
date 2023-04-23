@@ -22,6 +22,39 @@ $(document).ready(function() {
     }
   }
 
+    // Get the element that you want to observe
+  const contactSection = document.querySelector('.contact-desc');
+
+  // Create a new IntersectionObserver object
+  const observer = new IntersectionObserver((entries) => {
+    // Loop through the entries that intersect with the viewport
+    entries.forEach((entry) => {
+      // If the observed element is intersecting with the viewport
+      if (entry.isIntersecting) {
+        // Add a CSS class to show the element
+        contactSection.classList.add('show');
+      }
+    });
+  }, {
+    // Set the root element to be the viewport
+    root: null,
+    // Set the threshold to 0 (meaning the observed element is considered intersecting when it enters the viewport)
+    threshold: 0.5,
+  });
+  
+  $(window).on('scroll', function() {
+  var element = $('.contact-desc');
+  var position = element.offset().top;
+  var scrollTop = $(window).scrollTop();
+  var windowHeight = $(window).height();
+  if (scrollTop + windowHeight > position) {
+    element.fadeIn(2000);
+  }
+});
+
+  // Start observing the element
+  observer.observe(contactSection);
+
   // get the current path
   var path = window.location.pathname;
 

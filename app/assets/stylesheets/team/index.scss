@@ -4,6 +4,50 @@
     display: none;
 }
 
+.lead {
+    animation: lead-appear 1.3s ease-in-out forwards;
+  }
+  
+  .lead2 {
+    opacity: 0;
+    transform: translateY(180px);
+    animation: lead2-appear 1.3s ease-in-out forwards;
+    animation-delay: 1.3s;
+  }
+  
+  @keyframes lead-appear {
+    0% {
+      opacity: 0;
+      transform: translateY(180px);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes lead2-appear {
+    0% {
+      opacity: 0;
+      transform: translateY(180px);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .contact-desc {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .contact-desc.show {
+    opacity: 1;
+  }
+
 @media screen and (min-width: 961px) {
     .team-page {
         background: linear-gradient(180deg, #161E34 6.11%, #438CC1 100%);
