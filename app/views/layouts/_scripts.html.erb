@@ -11,7 +11,7 @@ const sections = document.querySelectorAll('.section');
 const options = {
   root: null,
   rootMargin: '0px',
-  threshold: 0.5
+  threshold: 0.3
 };
 
 const observer = new IntersectionObserver((entries, observer) => {
@@ -62,7 +62,7 @@ $(document).ready(function() {
     // Set the root element to be the viewport
     root: null,
     // Set the threshold to 0 (meaning the observed element is considered intersecting when it enters the viewport)
-    threshold: 0.5,
+    threshold: 0.3,
   });
   
   $(window).on('scroll', function() {
